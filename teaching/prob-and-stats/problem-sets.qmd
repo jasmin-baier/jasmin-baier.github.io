@@ -203,3 +203,5 @@ $$
    (d) Calculate the conditional treatment effects for those with less than 5 A\*-C grades at GCSE and for those with at least 5 A\*-C at GCSE.
    (e) Calculate the Average Treatment Effect and the Average Effect of Treatment on the Treated and compare them to the difference you found in part (a).
 :::
+
+*Acknowledgement: This course and this website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*

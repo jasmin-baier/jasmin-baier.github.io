@@ -293,3 +293,5 @@ the Null hypothesis?
 9. What are the three main problems encountered when using the conditional independence assumption.
 10. Is the conditional independence assumption verifiable?
 :::
+
+*Acknowledgement: This course and this website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*

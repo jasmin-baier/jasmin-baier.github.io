@@ -2,7 +2,7 @@
 title: "Syllabus"
 ---
 
-Click below to expand the details for each unit, including times and locations of classes and tutorials, the [lecture videos](https://canvas.ox.ac.uk/courses/270191/pages/3-dot-1-lecture-material-recordings-and-lecture-slides?module_item_id=2631683) you should watch in advance, the [review questions](review-questions.qmd) you should solve in advance, and the [problem sets](problem-sets.qmd) you should complete after each unit. Please note that all classes and tutorials will take place at [Lady Margaret Hall](https://www.lmh.ox.ac.uk/).
+Click below to expand the details for each unit, including times and locations of classes, the [lecture videos](https://canvas.ox.ac.uk/courses/294545/pages/3-dot-1-lecture-material-recordings-and-lecture-slides?module_item_id=2960419) you should watch in advance, the [review questions](review-questions.qmd) you should solve in advance, and the [problem sets](problem-sets.qmd) you should complete after each unit. Please note that all classes and tutorials will take place at [Lady Margaret Hall](https://www.lmh.ox.ac.uk/).
 
 ::: {.callout-note collapse="true" icon="false"}
 ## Unit \#1 - Probability I (MT Week 3)
@@ -10,9 +10,7 @@ Click below to expand the details for each unit, including times and locations o
 ### Dates, Times, and Locations
 MT Week 3. 
 
-- **Class (Everyone)**: Weds 4:30-6pm in the Lyttleton Room 
-- **Tutorial 1 (St Anne's)**: Thurs 2-3:30pm in the Lyttleton Room 
-- **Tutorial 2 (LMH)**: Thurs 3:30-5pm in the Lyttleton Room 
+- **Class**: Friday 1:00-3:30pm in the LMH Lodge Coaching Room 
 
 ### Videos
 - P0: Introduction
@@ -32,11 +30,9 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 ## Unit \#2 - Probability II (MT Week 5)
 
 ### Dates, Times, and Locations
-MT Week 5. **Note the different day and location!**
+MT Week 5. 
 
-- **Class (Everyone)**: Tues 4:30-6pm in the Lyttleton Room 
-- **Tutorial 1 (St Annes)**: Weds 2-3:30pm in the Paul Oster Room 
-- **Tutorial 2 (LMH)**: Weds 3:30-5pm in the Paul Oster Room 
+- **Class**: Friday 1:00-3:30pm in the LMH Lodge Coaching Room 
 
 ### Videos
 - D0: Data & Variables Intro
@@ -60,9 +56,7 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 ### Dates, Times, and Locations
 MT Week 7
 
-- **Class (Everyone)**: Weds 4:30-6pm in the Lyttleton Room
-- **Tutorial 1 (St Anne's)**: Thurs 2-3:30pm in the Lyttleton Room 
-- **Tutorial 2 (LMH)**: Thurs 3:30-5pm in the Lyttleton Room 
+- **Class (Everyone)**: Friday 1:00-3:30pm in the LMH Lodge Coaching Room 
 
 ### Videos
 - M0: Intermission
@@ -81,13 +75,12 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
-## Unit \#4 - Statistics I (HT Weeks 1-2)
+## Unit \#4 - Statistics I (MT Week 8)
 
 ### Dates, Times, and Locations
+MT Week 8
 
-- **Class (Everyone)**: Thursday of HT Week 1, 4:30-6pm in the Paul Oster Room at LMH 
-- **LMH Tutorial**: Thursday of HT Week 2, 3-4:30pm in the Paul Oster Room at LMH
-- **St Anne's Tutorial**: Thursday of HT Week 2, 4:30-6pm in the Paul Oster Room at LMH
+- **Class (Everyone)**: Friday 1:00-3:30pm in the LMH Lodge Coaching Room 
 
 ### Videos
 
@@ -109,14 +102,12 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
-## Unit \#5 - Statistics II (HT Weeks 4-5)
+## Unit \#5 - Statistics II (HT TBC)
 
 ### Dates, Times, and Locations
-HT Weeks 3-4. 
+HT TBC 
 
-- **Class (Everyone)**: Thursday of HT Week 3, 4:30-6pm in the Paul Oster Room at LMH
-- **LMH Tutorial**: Thursday of HT Week 4, 3-4:30pm in the Paul Oster Room at LMH
-- **St Anne's Tutorial**: Thursday of HT Week 4, 4:30-6pm in the Paul Oster Room at LMH
+- **Class**: TBC
 
 ### Videos
 - S6: Tests of Statistical Hypotheses - Overview
@@ -134,13 +125,11 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 
 
 ::: {.callout-note collapse="true" icon="false"}
-## Unit \#6 - Time Series (HT Weeks 5-6)
+## Unit \#6 - Time Series (HT TBC )
 
 ### Dates, Times, and Locations
 
-- **Class (Everyone)**: Thursday of HT Week 5, 4:30-6pm in the Paul Oster Room at LMH
-- **LMH Tutorial**: Thursday of HT Week 6, 3-4:30pm in the Paul Oster Room at LMH
-- **St Anne's Tutorial**: Thursday of HT Week 6, 4:30-6pm in the Paul Oster Room at LMH
+- **Class**: TBC
 
 ### Videos
 
@@ -161,16 +150,15 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 
 ::: {.callout-note collapse="true" icon="false"}
 
-## Unit \#7 - Causal Inference (HT Weeks 7-8)
+## Unit \#7 - Causal Inference (HT TBC)
 
 ### Dates, Times, and Locations
+HT TBC
 
-- **Class (Everyone)**: Thursday of HT Week 7, 4:30-6pm in the Paul Oster Room at LMH
-- **LMH Tutorial**: Wednesday of HT Week 8, 4:30-6pm in the Paul Oster Room at LMH 
-- **St Anne's Tutorial**: Thursday of HT Week 8, 4:30-6pm in the Paul Oster Room at LMH
+- **Class (Everyone)**: TBC
 
 ### Videos
-For this class there are *three sets of videos*: (1) [my introduction to causal inference for a general audience](https://youtu.be/NeAkMcgdWxA), (2) the lecture videos:
+For this class there are *three sets of videos*: (1) [Francis DiTraglia's introduction to causal inference for a general audience](https://youtu.be/NeAkMcgdWxA), (2) the lecture videos:
 
 - C0: Introduction
 - C1: Potential Outcomes
@@ -180,7 +168,7 @@ For this class there are *three sets of videos*: (1) [my introduction to causal 
 - C5: Natural and Quasi-experiments
 - C6: Conditional Independence
 
-and (3) some additional videos of mine that complement the lecture videos: 
+and (3) some additional videos by [Frank (thank you!)](https://ditraglia.com/) that complement the lecture videos: 
 
 - [Potential Outcomes](https://expl.ai/QHUAVRV)
 - [Selection Bias](https://expl.ai/DWVNRZU)
@@ -193,3 +181,5 @@ Before class, complete the [review questions](review-questions.qmd) for class 7.
 After attending class and the tutorial, complete [problem set](problem-sets.qmd) number seven.
 
 :::
+
+*Acknowledgement: This course and this website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*
