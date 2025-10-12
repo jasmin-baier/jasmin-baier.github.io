@@ -1,0 +1,195 @@
+---
+title: "Syllabus"
+---
+
+Click below to expand the details for each unit, including times and locations of classes and tutorials, the [lecture videos](https://canvas.ox.ac.uk/courses/270191/pages/3-dot-1-lecture-material-recordings-and-lecture-slides?module_item_id=2631683) you should watch in advance, the [review questions](review-questions.qmd) you should solve in advance, and the [problem sets](problem-sets.qmd) you should complete after each unit. Please note that all classes and tutorials will take place at [Lady Margaret Hall](https://www.lmh.ox.ac.uk/).
+
+::: {.callout-note collapse="true" icon="false"}
+## Unit \#1 - Probability I (MT Week 3)
+
+### Dates, Times, and Locations
+MT Week 3. 
+
+- **Class (Everyone)**: Weds 4:30-6pm in the Lyttleton Room 
+- **Tutorial 1 (St Anne's)**: Thurs 2-3:30pm in the Lyttleton Room 
+- **Tutorial 2 (LMH)**: Thurs 3:30-5pm in the Lyttleton Room 
+
+### Videos
+- P0: Introduction
+- P1: Probability Basics
+- P2: Conditional Probability
+- P3: Independence & Bayes' Rule
+
+### Quiz
+Before class, complete the [review questions](review-questions.qmd) for class 1. These will be the basis of the quiz at the start of class.
+
+### Problem Set
+After attending class and the tutorial, complete [problem set](problem-sets.qmd) number one. 
+
+:::
+  
+::: {.callout-note collapse="true" icon="false"}
+## Unit \#2 - Probability II (MT Week 5)
+
+### Dates, Times, and Locations
+MT Week 5. **Note the different day and location!**
+
+- **Class (Everyone)**: Tues 4:30-6pm in the Lyttleton Room 
+- **Tutorial 1 (St Annes)**: Weds 2-3:30pm in the Paul Oster Room 
+- **Tutorial 2 (LMH)**: Weds 3:30-5pm in the Paul Oster Room 
+
+### Videos
+- D0: Data & Variables Intro
+- D1: Data Basics
+- D2: Probability Mass Functions
+- D3: PDFs
+- D4: CDFs
+- D5: Standardization
+- D6: Multivariate Distributions
+
+### Quiz
+Before class, complete the [review questions](review-questions.qmd) for class 2. These will be the basis of the quiz at the start of class. There will also be some additional questions based on the material covered in class 1.
+
+### Problem Set
+After attending class and the tutorial, complete [problem set](problem-sets.qmd) number two.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Unit \#3 - Probability III (MT Week 7)
+
+### Dates, Times, and Locations
+MT Week 7
+
+- **Class (Everyone)**: Weds 4:30-6pm in the Lyttleton Room
+- **Tutorial 1 (St Anne's)**: Thurs 2-3:30pm in the Lyttleton Room 
+- **Tutorial 2 (LMH)**: Thurs 3:30-5pm in the Lyttleton Room 
+
+### Videos
+- M0: Intermission
+- M1: Expected Values
+- M2: Variance
+- M3: Conditional Expectations
+- M4: Correlation, Covariance, \& Independence
+
+
+## Quiz
+Before class, complete the [review questions](review-questions.qmd) for class 3. These will be the basis of the quiz at the start of class. There will also be some additional questions based on the material covered in class 2.
+
+## Problem Set
+After attending class and the tutorial, complete [problem set](problem-sets.qmd) number three.
+
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Unit \#4 - Statistics I (HT Weeks 1-2)
+
+### Dates, Times, and Locations
+
+- **Class (Everyone)**: Thursday of HT Week 1, 4:30-6pm in the Paul Oster Room at LMH 
+- **LMH Tutorial**: Thursday of HT Week 2, 3-4:30pm in the Paul Oster Room at LMH
+- **St Anne's Tutorial**: Thursday of HT Week 2, 4:30-6pm in the Paul Oster Room at LMH
+
+### Videos
+
+- S0: Statistics Intro
+- S1: Populations, Samples & Random Variables
+- S2: Parameters, Statistics & Estimation
+- S3: The Law of Large Numbers & Central Limit Theorem
+- S4: Intro to Statistical Inference
+- S5: Confidence Intervals Overview
+- S5a: Confidence Intervals for Means
+- S5b: Confidence Intervals for Proportions
+
+### Quiz 
+Before class, complete the [review questions](review-questions.qmd) for class 4. These will be the basis of the quiz at the start of class.
+
+### Problem Set
+After attending class and the tutorial, complete [problem set](problem-sets.qmd) number four.
+
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Unit \#5 - Statistics II (HT Weeks 4-5)
+
+### Dates, Times, and Locations
+HT Weeks 3-4. 
+
+- **Class (Everyone)**: Thursday of HT Week 3, 4:30-6pm in the Paul Oster Room at LMH
+- **LMH Tutorial**: Thursday of HT Week 4, 3-4:30pm in the Paul Oster Room at LMH
+- **St Anne's Tutorial**: Thursday of HT Week 4, 4:30-6pm in the Paul Oster Room at LMH
+
+### Videos
+- S6: Tests of Statistical Hypotheses - Overview
+- S6a: Tests for Means
+- S6b: Tests for Proportions
+- S7: Confidence Intervals and Hypothesis Tests Revisited
+
+### Quiz 
+Before class, complete the [review questions](review-questions.qmd) for class 5. These will be the basis of the quiz at the start of class. There will also be some additional questions based on the material covered in class 4.
+
+### Problem Set
+After attending class and the tutorial, complete [problem set](problem-sets.qmd) number five.
+
+:::
+
+
+::: {.callout-note collapse="true" icon="false"}
+## Unit \#6 - Time Series (HT Weeks 5-6)
+
+### Dates, Times, and Locations
+
+- **Class (Everyone)**: Thursday of HT Week 5, 4:30-6pm in the Paul Oster Room at LMH
+- **LMH Tutorial**: Thursday of HT Week 6, 3-4:30pm in the Paul Oster Room at LMH
+- **St Anne's Tutorial**: Thursday of HT Week 6, 4:30-6pm in the Paul Oster Room at LMH
+
+### Videos
+
+- T0: Time Series Introduction
+- T1: Time Series Data
+- T3: Basic Operations
+- T4: Stationarity
+- T5: Some Time Series Models
+- T6: Mean Reversion
+- T7: Spurious Correlation
+
+### Quiz
+Before class, complete the [review questions](review-questions.qmd) for class 6. These will be the basis of the quiz at the start of class. There will also be some additional questions based on the material covered in class 5.
+
+### Problem Set
+After attending class and the tutorial, complete [problem set](problem-sets.qmd) number six.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+
+## Unit \#7 - Causal Inference (HT Weeks 7-8)
+
+### Dates, Times, and Locations
+
+- **Class (Everyone)**: Thursday of HT Week 7, 4:30-6pm in the Paul Oster Room at LMH
+- **LMH Tutorial**: Wednesday of HT Week 8, 4:30-6pm in the Paul Oster Room at LMH 
+- **St Anne's Tutorial**: Thursday of HT Week 8, 4:30-6pm in the Paul Oster Room at LMH
+
+### Videos
+For this class there are *three sets of videos*: (1) [my introduction to causal inference for a general audience](https://youtu.be/NeAkMcgdWxA), (2) the lecture videos:
+
+- C0: Introduction
+- C1: Potential Outcomes
+- C2: Selection Bias
+- C3: Randomized Controlled Trials
+- C4: Internal and External Validity
+- C5: Natural and Quasi-experiments
+- C6: Conditional Independence
+
+and (3) some additional videos of mine that complement the lecture videos: 
+
+- [Potential Outcomes](https://expl.ai/QHUAVRV)
+- [Selection Bias](https://expl.ai/DWVNRZU)
+- [Conditional Independence](https://expl.ai/LXPVDDN) (Skip 5:00-11:32 since it's a bit advanced.) 
+
+### Quiz
+Before class, complete the [review questions](review-questions.qmd) for class 7. These will be the basis of the quiz at the start of class. There will also be some additional questions based on the material covered in class 6.
+
+### Problem Set
+After attending class and the tutorial, complete [problem set](problem-sets.qmd) number seven.
+
+:::

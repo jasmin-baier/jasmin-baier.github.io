@@ -1,0 +1,14 @@
+---
+title: "Research"
+---
+
+*Working Papers & Work in Progress*
+Baier, J. AI-facilitated Skills Elicitation, Skills-based Job Matching, and Personalized Labor Market Information in South Africa. (pilot data collection)
+
+Baier, J., Enriquez, J.‑R., & Kazemi, S. From Pilots to Prompts: Validating LLM In‑Silico Predictions Against Statistical Baselines in Low‑Resource Contexts. (working paper coming soon)
+
+*Peer-Reviewed Publications*
+Baier, J., Barasa, L., Bottan, N., Ghosh, A., & Millrine, M. (2025). (conditionally accepted via pre-results review at the Journal for Development Economics). Learning Through Living Room Screens: The Impact of an Educational TV Show on Kenyan Children's Learning and Attitudes. 
+
+Watson, J., Baier, J., Mughogho, W., & Millrine, M. (2023). An exploratory investigation into the factors related to EdTech use among Kenyan girls. British Journal of Educational Technology, 54, 1006–1024.
+

@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Problem Sets – Jasmin Baier</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/noun-ai-6480924.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Problem Sets – Jasmin Baier">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Jasmin Baier">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jasmin Baier</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="../../teaching/prob-and-stats.qmd">
+ <span class="dropdown-text">Probability &amp; Statistics</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/jasmin-baier"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/jasminbaier/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Problem Sets</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Click below to expand the review questions that you should complete <strong>after each class</strong>. Solutions to the problem sets are provided in the <a href="https://canvas.ox.ac.uk/courses/270191/pages/3-dot-2-demonstration-lecture-material?module_item_id=2631684">demonstration lectures</a>.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem Set 1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Prove, using the probability axioms
+<ol type="a">
+<li><strong>The Complement Rule</strong>: <span class="math inline">\(P(A^c) = 1 − P(A)\)</span>.</li>
+<li><strong>The Probability of the Union of Two Events Rule</strong>: <span class="math inline">\(P(A\cup B) = P (A) + P (B) − P (A\cap B)\)</span></li>
+<li><strong>The Bounds on Probabilities Rule</strong>: <span class="math inline">\(P (A \cup B) \leq P (A) + P (B)\)</span></li>
+<li><strong>The Logical Consequence Rule</strong>: If <span class="math inline">\(B\)</span> logically entails <span class="math inline">\(A\)</span> then <span class="math inline">\(P (B) \leq P (A)\)</span></li>
+</ol></li>
+<li>Consider the experiment of tossing a coin repeatedly and counting the number of coin tosses required until the first head appears.
+<ol type="a">
+<li>Write down the sample space.</li>
+<li>Let <span class="math inline">\(A\)</span> be the event that the number of coin tosses required for the first head to appear is even. Let <span class="math inline">\(B\)</span> be the event that the number of coin tosses required until the first head appears is less than 5. Describe events <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> as sets.</li>
+</ol></li>
+<li>Consider the experiment of tossing a coin 2 times. Consider the events: <span class="math display">\[
+\begin{align*}
+A &amp;= \text{There is at most one Head}\\
+B &amp;= \text{There is at least one Head and there is at least one Tail}
+\end{align*}
+\]</span>
+<ol type="a">
+<li>Are events <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> independent?</li>
+<li>What if you toss the coin 3 times?</li>
+<li>What if you toss the coin 4 times?</li>
+</ol></li>
+<li>Derive Bayes’ Rule from the definition of a conditional probability.</li>
+<li>Three percent of Tropicana brand oranges are already rotten when they arrive at the supermarket. In contrast, six percent of Sunkist brand oranges arrive rotten. A local supermarket buys forty percent of its oranges from Tropicana and the rest from Sunkist. Suppose we randomly choose an orange from the supermarket and see that it is rotten. What is the probability that it is a Tropicana?</li>
+<li>Imagine there are two universities, University A and University B, who take different approaches to generating research findings. In University A, a team of well-informed experts develop a theory. Their theories are correct 90% of the time. Before publishing a theory, the scientists at University A do an experimental test of the theory to check whether it is correct (e.g.&nbsp;a clinical trial). The test is designed so that 90% of correct theories will pass the test and only 10% of false theories pass the test.
+<ol type="a">
+<li>Let <span class="math inline">\(T\)</span> be the event that the theory is true and <span class="math inline">\(\text{Pub}\)</span> be the event that the theory passes the test and is published. Draw a Venn diagram to represent these probabilities.</li>
+<li>Calculate the probability that a theory from University A is published, i.e <span class="math inline">\(P(\text{Pub})\)</span>.</li>
+<li>Calculate the probability that a published theory from University A is correct, i.e <span class="math inline">\(P(T |\text{Pub})\)</span>.</li>
+<li>In University B, a team of creative experts think of theories that would be rather surprising and interesting if true. These theories are correct only 5% of the time. Again, before publishing their theory, the scientists at University B do that same experimental test as in University A of the theory, i.e.&nbsp;the test is designed so that 90% of correct theories will pass the test and only 10% of false theories pass the test. Calculate the probability that a published theory from University B is correct.</li>
+<li>The Research Council governing the publication of research requires that published theories (i.e.&nbsp;those that pass the test) must be replicated before they can be used in practice. Assume that the replication test is like the first test, i.e.&nbsp;the test is designed so that 90% of correct theories will pass the test and only 10% of false theories pass the test. Compute the replicability rate of University A and University B (i.e.&nbsp;the pass rate of the second test)</li>
+</ol></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem Set 2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Consider a random variable <span class="math inline">\(X\)</span> which is uniformly distributed <span class="math inline">\(U(0, 1)\)</span>.
+<ol type="a">
+<li>Draw the probability density function (pdf), <span class="math inline">\(f(x)\)</span>. What is the formula for the pdf?</li>
+<li>Draw the cumulative density function (cdf), <span class="math inline">\(F(x)\)</span>. What is the formula for the cdf?</li>
+</ol></li>
+<li>Consider a random variable <span class="math inline">\(X\)</span> which is uniformly distributed <span class="math inline">\(U(0, 1)\)</span>.
+<ol type="a">
+<li>What is the distribution of <span class="math inline">\(Z = 2 + X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 3X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 2 + 3X\)</span>?</li>
+</ol></li>
+<li>Consider a random variable X which is uniformly distributed <span class="math inline">\(U(−2, 3)\)</span>.
+<ol type="a">
+<li>What is the distribution of <span class="math inline">\(Z = 2 + X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 3X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 2 + 3X\)</span>?</li>
+</ol></li>
+<li>For a random variable <span class="math inline">\(X \sim U (2, 12)\)</span> (read the <span class="math inline">\(\sim\)</span> as “that is distributed”)
+<ol type="a">
+<li>What is <span class="math inline">\(P(3 \leq X \leq 8)\)</span>?</li>
+<li>What is <span class="math inline">\(P(X = 9)\)</span>?</li>
+</ol></li>
+<li>Consider a random variable X which is normally distributed with mean 0 and variance of 1.
+<ol type="a">
+<li>What is the distribution of <span class="math inline">\(Z = 5 + X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 2X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 2 + 3X\)</span>?</li>
+</ol></li>
+<li>Consider a random variable <span class="math inline">\(X\)</span> which is normally distributed with mean 2 and variance of 9.</li>
+</ol>
+<ol type="a">
+<li>What is the distribution of <span class="math inline">\(Z = −2 + X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = X/\sqrt{9}\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = (−2+X)/\sqrt{9}\)</span></li>
+</ol>
+<ol start="7" type="1">
+<li>If <span class="math inline">\(X \sim∼ N (\mu=−1, \sigma^2 =2)\)</span> what is
+<ol type="a">
+<li><span class="math inline">\(P(X = 0)\)</span>?</li>
+<li><span class="math inline">\(P(X \leq −1)\)</span>?</li>
+<li><span class="math inline">\(P(−1 \leq X \leq 1)\)</span>?</li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(X \leq t) = 0.25\)</span></li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(X &gt; t) = 0.80\)</span></li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(−|t| \leq X \leq |t|) = 0.9\)</span></li>
+</ol></li>
+<li>Suppose that students’ marks on the economics prelims paper are normally distributed with mean 61 and standard deviation 9.5.
+<ol type="a">
+<li>What is the probability that a student scores (i) less than 50? (ii) 70 or more?</li>
+<li>What score is exceeded by only 10% of students?</li>
+<li>Find the median, and the upper and lower quartiles.</li>
+<li>What proportion of students have scores within 5 marks of the mean?</li>
+</ol></li>
+<li>Consider the following bivariate probability mass function <span class="math inline">\(f(X, Y )\)</span> <span class="math display">\[
+\begin{array}{l|ccc}
+&amp; X=0 &amp; X=2 &amp; X=3 \\
+\hline
+Y=0&amp;1/36 &amp; 1/18 &amp; 1/12\\
+Y=1&amp; 1/9 &amp; 2/9 &amp; 1/3\\
+Y=2&amp; 1/36 &amp;1/18 &amp; 1/12
+\end{array}
+\]</span> what is
+<ol type="a">
+<li>the marginal PMF of <span class="math inline">\(X\)</span>?</li>
+<li>the marginal CDF of <span class="math inline">\(Y\)</span>?</li>
+<li>the conditional PMF of <span class="math inline">\(Y\)</span>: <span class="math inline">\(f(Y |X = 3)\)</span>?</li>
+<li>the conditional CDF of <span class="math inline">\(X\)</span>: <span class="math inline">\(F(X|Y = 2)\)</span>?</li>
+<li>Are <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> independent?</li>
+</ol></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem Set 3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be random variables and <span class="math inline">\(a,b,c\)</span> be constants. Use the linearity of expectation to derive the following results:
+<ol type="a">
+<li><span class="math inline">\(\text{Cov}(X,Y) = \mathbb{E}(XY) - \mathbb{E}(X)\mathbb{E}(Y)\)</span></li>
+<li><span class="math inline">\(\text{Var}(a + bX + cY) = b^2 \text{Var}(X) + c^2 \text{Var}(Y) + 2bc \text{Cov}(X,Y)\)</span></li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be random variables such that <span class="math inline">\(\mathbb{E}[Y] \neq 0\)</span>. Show that, provided that all of the relevant expectations exist and are finite, <span class="math display">\[\frac{\mathbb{E}[X]}{\mathbb{E}[Y]} - \mathbb{E}\left[ \frac{X}{Y}\right] = \frac{\text{Cov}(X/Y,\, Y)}{\mathbb{E}[Y]}.\]</span></li>
+<li>Let <span class="math inline">\(X\)</span> be a random variable and <span class="math inline">\(a, b\)</span> be constants. Suppose that <span class="math inline">\(Y = a + b X\)</span>. Calculate the correlation between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> in each of the following cases:
+<ol type="a">
+<li><span class="math inline">\(b &gt; 0\)</span></li>
+<li><span class="math inline">\(b &lt; 0\)</span></li>
+<li><span class="math inline">\(b = 0\)</span></li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(U\)</span> be random variables and <span class="math inline">\(a, b\)</span> be constants. Suppose that <span class="math inline">\(Y = a + b X + U\)</span> where <span class="math inline">\(\mathbb{E}(U) = 0\)</span> and <span class="math inline">\(\text{Cov}(X, U) = 0\)</span>.
+<ol type="a">
+<li>Calculate <span class="math inline">\(\mathbb{E}(Y)\)</span>.</li>
+<li>Calculate <span class="math inline">\(\text{Var}(Y)\)</span>.</li>
+<li>Show that <span class="math inline">\(\text{Cov}(X, Y) = b \text{Var}(X)\)</span></li>
+<li>Show that <span class="math inline">\(\text{Corr}(X,Y) = b \sqrt{\frac{\text{Var}(X)}{b^2 \text{Var}(X) + \text{Var}(U)}}\)</span>.</li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> be a <span class="math inline">\(\text{Bernoulli}(p)\)</span> random variable, i.e.&nbsp;<span class="math inline">\(X \in \{0, 1\}\)</span> with <span class="math inline">\(\mathbb{P}(X=1) = p\)</span>. Show that, for any other random variable <span class="math inline">\(Y\)</span> such that the relevant expectations exist and are finite <span class="math display">\[
+\frac{\text{Cov}(X,Y)}{\text{Var}(X)} = \mathbb{E}(Y|X=1) - \mathbb{E}(Y|X=0).
+\]</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem Set 4
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Define the terms “estimand”, “estimator”, and “estimate” using the median as an example.</li>
+<li>Let <span class="math inline">\(X_1, X_2, \dots X_N \sim \text{iid}\)</span> with mean <span class="math inline">\(\mu\)</span> and variance <span class="math inline">\(\sigma^2\)</span> and let <span class="math inline">\(\bar{X}_N \equiv \frac{1}{N} \sum_{i=1}^n X_i\)</span>.
+<ol type="a">
+<li>Is <span class="math inline">\(\bar{X}_N\)</span> and unbiased estimator of <span class="math inline">\(\mu\)</span>?</li>
+<li>Is <span class="math inline">\((0.1 X_1 + 0.9 X_2)\)</span> an unbiased estimator of <span class="math inline">\(\mu\)</span>? Why or why not?</li>
+<li>Which is a more efficient estimator of <span class="math inline">\(\mu\)</span>: <span class="math inline">\((0.1 X_1 + 0.9 X_2)\)</span> or <span class="math inline">\((0.5 X_1 + 0.5 X_2)\)</span>? Explain.</li>
+<li>Suppose that <span class="math inline">\(\mu\)</span> is known. Is <span class="math inline">\(\widehat{\sigma}^2 \equiv \frac{1}{N-1}\sum_{i=1}^N (X_i - \mu)^2\)</span> an unbiased estimator of <span class="math inline">\(\sigma^2\)</span>? Explain.</li>
+</ol></li>
+<li>Consider a fictional university, Camford University, which is composed of a large number of colleges. Each college has the same number of first-year economics students. Suppose that students’ marks on the economics prelims papaer are normally distributed with mean 61 and standard deviation 9.5.
+<ol type="a">
+<li>What is the distribution of the sample mean in a random sample of size <span class="math inline">\(N\)</span>?</li>
+<li>In a random sample of 10 students, what is the probability that their average mark exceeds 63?</li>
+<li>Suppose that you have a sample of 10 students that is selected by choosing a <em>college</em> at random, and then choosing 10 students at random from the college. What can you say about the expected value and variance of their average mark? Explain.</li>
+</ol></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem Set 5
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>In a random sample of 1165 Oxford PPE applicants, the average score on the TSA test was 60.86, with a standard deviation of 8.02. Construct a 95% confidence interval for the population mean score.</li>
+<li>Suppose you are studying the impact of COVID-19 on the labour market. In a random sample of 1000 workers, you find that 354 had been “furloughed” in July 2020. Construct a 90% confidence interval for the population mean furlough rate.</li>
+<li>Suppose that we observe hourly wages for a random sample of 150 university graduates: the sample mean is £31 with a standard deviation of £15. In contrast, the sample mean wage is £17 with a standard deviation of £10 for a sample of 225 non-university graduates. Construct an approximate 95% confidence interval for the difference in population mean wages <span class="math inline">\((\mu_X - \mu_Y)\)</span> between university graduates (X) and non-university graduates (Y).</li>
+<li>You are interested in whether the average rent for a room in Oxford is £500 per month. In a random sample of 300 rooms to rent in Oxford, the average rent is £525 per month with a standard deviation of £200. Test the hypothesis that the average Oxford room rent per month is £500.</li>
+<li>Suppose you have a large random sample <span class="math inline">\(X_1, \ldots, X_n \sim \text{iid} \, N(\mu, \sigma^2)\)</span>, and you test <span class="math inline">\(H_0: \mu = \mu_0\)</span> vs.&nbsp;<span class="math inline">\(H_1: \mu \neq \mu_0\)</span> where <span class="math inline">\(\mu_0\)</span> is some hypothesized value of <span class="math inline">\(\mu\)</span>. You decide to set a significance level, <span class="math inline">\(\alpha\)</span>, at which to conduct the hypothesis test.
+<ol type="a">
+<li>Say you choose <span class="math inline">\(\alpha = 0.05\)</span> and reject. Would you still have rejected if you had instead chosen <span class="math inline">\(\alpha = 0.1\)</span>? Explain.</li>
+<li>Say you choose <span class="math inline">\(\alpha = 0.01\)</span> and fail to reject. Would you have failed to reject if you had instead chosen <span class="math inline">\(\alpha = 0.05\)</span>? Explain.</li>
+</ol></li>
+<li>A random sample of 35 Netflix users are asked to rate two shows: <em>The Queen’s Gambit</em> and <em>Bridgerton</em>. You can access the dataset as a .csv file <a href="https://ditraglia.com/data/user_ratings.csv">from this url</a>. Use the data to test the null hypothesis that both shows are equally highly rated.</li>
+<li>You are interested in whether the Oxford unemployment rate is the same as the national unemployment rate (5%). In a random sample of 1,000 Oxford residents, you find that 63 are unemployed. Test the hypothesis that the Oxford unemployment rate is the same as the national rate.</li>
+<li>Consider two groups A and B composed of 100 people who are suffering from a disease. A drug is given to group A. A placebo is given to group B. It is found that in group A 75 people recover whereas in group B only 65 people recover.
+<ol type="a">
+<li>Test the hypothesis that the drug helped cure the disease.</li>
+<li>Now suppose that the sample sizes in each group are 300 and 225 in group A and 195 in group B recover. What do you conclude?</li>
+</ol></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem Set 6
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>At <a href="https://climate.nasa.gov/vital-signs/global-temperature/">this url</a> you can find a plot illustrating the change in global surface temperatures over time, relative to the 1951-1980 average. With reference to the plot, discuss the key differences between time series and cross-sectional data.</li>
+<li>If <span class="math inline">\(X_t\)</span> is white noise with mean <span class="math inline">\(\mu\)</span> and variance <span class="math inline">\(\sigma^2\)</span>, what process does its first difference (<span class="math inline">\(\Delta X_t = X_t - X_{t-1}\)</span>) follow? What is the mean, variance, first order autocovariance, and second order autocovariance of the process?</li>
+<li>Consider the following time series process: <span class="math display">\[X_t = \epsilon_t + 0.5\epsilon_{t-1} + 0.5\epsilon_{t-2}\]</span> where <span class="math inline">\(\epsilon_t\)</span> is identically and independently distributed where <span class="math inline">\(\epsilon_t \sim N(0, \sigma^2)\)</span>.
+<ol type="a">
+<li>What is the mean and variance of <span class="math inline">\(X_t\)</span>?</li>
+<li>What are the first, second, and third order autocovariances?</li>
+</ol></li>
+<li>Let <span class="math inline">\(\epsilon_t\)</span> be identically and independently distributed with <span class="math inline">\(\epsilon_t \sim N(0, \sigma^2)\)</span>. Consider the following time series process: <span class="math display">\[X_t = \alpha + \beta X_{t-1} + \epsilon_t\]</span>
+<ol type="a">
+<li>What is the name commonly given to this type of process? What if <span class="math inline">\(\alpha = 0\)</span> and <span class="math inline">\(\beta = 1\)</span>? What if <span class="math inline">\(\alpha = 0\)</span> and <span class="math inline">\(\beta = 0\)</span>?</li>
+<li>By recursing back one period, show that: <span class="math display">\[X_t = \alpha + \beta \alpha + \beta^2 X_{t-2} + \epsilon_t + \beta \epsilon_{t-1} \quad (3)\]</span></li>
+<li>By using the results on sequences covered in Chapter 4 of the Maths Workbook, show that <span class="math display">\[ X_t = \frac{1 - \beta^t}{1 - \beta} \alpha + \beta^t X_0 + \sum_{j=0}^{t-1} \beta^j \epsilon_{t-j}\]</span> Suppose <span class="math inline">\(0 \leq \beta &lt; 1\)</span> and <span class="math inline">\(X_0\)</span> is a random variable with mean <span class="math inline">\(\frac{\alpha}{1 - \beta}\)</span> and variance <span class="math inline">\(\frac{\sigma^2}{1 - \beta^2}\)</span>, and is uncorrelated with <span class="math inline">\(\epsilon_t\)</span> for all <span class="math inline">\(t &gt; 0\)</span>.</li>
+<li>Find the mean, variance and autocovariance function of <span class="math inline">\(X_t\)</span> for any <span class="math inline">\(t \geq 1\)</span>? Is the process (weakly) stationary?</li>
+</ol></li>
+<li>In studies dating back over 100 years, it’s well established that “regression toward the mean” occurs between the heights of parent and the heights of their adult children. Indicate whether the following statement is true or false: “Parents of tall children will tend to be taller than their children.”</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem Set 7
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>In “Long-Lasting Effects of Socialist Education” by Nicola Fuchs-Schundeln and Paolo Masella the authors study the effects of a socialist education amongst children educated in the former East Germany (GDR). Socialist teaching was an official school subject in the GDR from 7th grade on and aimed to provide a deep knowledge of Marxism-Leninism, and of the socialist system of the GDR. The authors also suggest that an important feature of this educational system was that “critical thinking was not incentivized and divergent opinions were suppresse”. The authors were interested in the causal effect of exposure to the GDR’s educational system on subsequent labour market outcomes. To study this they exploit the very rapid reorganisation of the school system in the East after the fall of the Berlin Wall (November 9, 1989). The socialist elements of the curriculum were dropped almost immediately. The authors used the German Microcensus (2005-8) to look at individuals in date-of-birth cohorts born between 1974 to 1977 in the GDR. These date-of-birth cohorts were still in education at reunification. The outcome variable of interest was whether or not they were employed at the time of the Microcensus (2005-08). The study relies on the following institutional feature: in the GDR, children turning six on or before May 31 of a given year were automatically enrolled in the first grade by September 1 of the same year. Children born on or after June 1 waited another year before starting school. The authors define their control group as consisting of individuals born on or after June 1. The treatment group consisted of individuals born on or before May 31. Treated individuals within each date-of-birth cohort were exposed to a year more socialist teaching (and one year less of Western education) than individuals in the control group. The authors find that, comparing males in the treatment and control groups, the proportion of males who were employed was 0.021 lower in the treatment than the control group with a standard error of 0.004. Comparing females in the treatment and control groups, the proportion of females who were employed was 0.009 lower in the treatment than the control group with a standard error of 0.019.</p>
+<ol type="a">
+<li>Conduct suitable hypothesis tests to determine whether the difference in employment rates between the treatment and control groups for men and women respectively were statistically significant. What do you conclude?</li>
+<li>The authors interpret their results (subject to the results of the statistical tests above) as causal effects. Using the potential outcomes framework and the standard notation write down an expression describing this causal effect.</li>
+<li>What are the principal assumptions which would justify the authors’ claim that this effect is causal? Why might these assumptions not hold?</li>
+<li>Unfortunately the German Microcensus only records the current residence of respondents and not their residence at the time when they were at school. The authors therefore assumed that respondents currently residing in the East also received their education in the East. Why might this not be the case? If this is not the case how would it bias the results of the study?</li>
+</ol></li>
+<li><p>You are interested in the effect of taking extra online classes (e.g.&nbsp;edX or Khan Academy courses) on whether teenagers apply to university. In a sample of 1000 young adults you observe whether or not they applied to university and whether or not they took at least one online class. You also observe whether they got at least five A*-C grades at GCSE. The tables show the numbers in the sample of the various types of young adult and the proportion who applied to university.</p>
+<table class="caption-top table">
+<caption>Numbers of young adults by GCSE grades and whether took at least one online course</caption>
+<thead>
+<tr class="header">
+<th>No.&nbsp;Online Courses</th>
+<th>0</th>
+<th>≥1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GSCE Grades &lt; 5 A*-C</td>
+<td>150</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>≥ 5 A*-C</td>
+<td>250</td>
+<td>500</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<caption>Proportion applying to University</caption>
+<thead>
+<tr class="header">
+<th>No.&nbsp;Online Courses</th>
+<th>0</th>
+<th>≥1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GSCE Grades &lt; 5 A*-C</td>
+<td>0.3</td>
+<td>0.8</td>
+</tr>
+<tr class="even">
+<td>≥ 5 A*-C</td>
+<td>0.3</td>
+<td>0.5</td>
+</tr>
+</tbody>
+</table>
+<ol type="a">
+<li>Calculate the average difference in university application rates between those who did at least one online course and those who did not.</li>
+<li>Does this difference have a causal interpretation? Why or why not?</li>
+<li>A friend who has done a statistics course suggests that controlling for GCSE grades might help in this context. What does this mean and why might it help?</li>
+<li>Calculate the conditional treatment effects for those with less than 5 A*-C grades at GCSE and for those with at least 5 A*-C at GCSE.</li>
+<li>Calculate the Average Treatment Effect and the Average Effect of Treatment on the Treated and compare them to the difference you found in part (a).</li>
+</ol></li>
+</ol>
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jasmin-baier\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© {date:YYYY} Jasmin Baier</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jasmin.baier@bsg.ox.ac.uk">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

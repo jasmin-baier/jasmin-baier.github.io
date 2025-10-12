@@ -1,0 +1,295 @@
+---
+title: "Review Questions"
+---
+
+Click below to expand the review questions that you should complete **before each class**. These will form the basis of our in-class quizzes in the weeks indicated below. More information on quizzes is available [here](index.qmd#quizzes) for more details of the quizzes. The review questions are relatively straightforward. If you have trouble solving them, this suggests you may need to spend more time on the lecture videos and slides before making another attempt. 
+
+::: {.callout-note collapse="true" icon="false"}
+## Class 1 - MT Week 3
+
+1. What is a probability?
+2. State each of the three axioms of probability, aka the Kolmogorov Axioms.
+3. Suppose we carry out a random experiment that consists of flipping a fair coin twice.
+    (a) List all the basic outcomes in the sample space $\Omega$. 
+    (b) Let $A$ be the event that you get at least one head. List all the basic outcomes in $A$.
+    (c) List all the basic outcomes in $A^c$. 
+    (d) What is the probability of $A$? What is the probability of $A^c$?
+4. State the complement rule.
+5. Mark each statement as TRUE or FALSE. 
+    (a) If $A \subseteq B$ then $P(A) \geq P(B)$. 
+    (b) For any events $A$ and $B$, $P(A \cap B) = P(A)P(B)$
+    (c) For any events $A$ and $B$, $P(A \cup B) = P(A) + P(B) − P(A \cap B)$
+6. Let A and B be two arbitrary events. 
+    (a) Show that $P(A \cup B) \leq P(A) + P(B)$. (This is called *Boole’s Inequality*.)
+    (b) Show that $P(A \cap B) \geq P(A) + P(B) − 1$. (This is called *Bonferroni’s Inequality*)
+7. State the definition of a conditional probability.
+8. Derive:
+    (a) Bayes' Rule from the definition of conditional probability.
+    (b) The Multiplication rule for independent events from the definition of conditional probability.
+9. Name the various components of Bayes' Rule.
+10. Suppose that $P(B) = 0.4$, $P(A|B) = 0.1$ and $P(A|B^c) = 0.9$.
+    (a) Calculate $P(A)$.
+    (b) Calculate $P(B|A)$.
+11. Let $A$ and $B$ be two mutually exclusive events both with positive probability. Are they independent? Explain.
+12. Alexis the meteorologist determines that the probability of rain on Saturday is 50\%, and the probability of rain on Sunday is also 50\%. Sally the presenter sees Alexis' forecast and summarizes it as follows: "According to Alexis we're in for a wet weekend. There’s a 100\% chance of rain this weekend: 50\% on Saturday and 50% on Sunday." Is Sally correct? Why or why not?
+13. When is it true that $P(A|B) = P(B|A)$? Explain.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Class 2 - MT Week 5
+*Note: your lecturer uses the term "variable" where the more standard term is "random variable." I'll always say random variable, and abbreviate it RV.*
+
+1. Define the "support" aka "support set" of a RV. What is the probability that a RV takes on a value outside of its support set?
+2. What is the difference between a discrete and continuous RV? 
+3. What is a probability mass function (PMF)? What key properties does it satisfy?
+4. A random variable is said to follow a "Rademacher distribution" if it is equally likely to take any value in the set $\{−1, +1\}$ and never takes on any value outside this set. Write out and sketch its probability mass function.
+5. Define the term cumulative distribution function (CDF).
+    (a) How is the CDF of a discrete RV related to its PMF?
+    (b) How is the CDF of a continuous RV related to its PDF?
+6. Let $X$ be a RV with support set $\{−1, +1\}$ and $p(−1) = 1/3$. Write down the CDF of $X$.
+7. Define the term parameter as it relates to a distribution. Are parameters constant or random?
+8. If $X$ is a continuous RV and $a, b$ are constants, how do we calculate $P(a \leq X \leq b)$?
+9. What are the key properties of a probability density function (PDF)?
+10. True or False: if $f(x)$ denotes a PDF, then $f(x)$ is a probability so $0 \leq f(x) \leq 1$.
+11. Let $X$ be a continuous RV with CDF $F$ . Express $P(−2 \leq X \leq 4)$ in terms of $F$.
+12. Let X be a continuous RV with CDF $F$. Express $P(X \geq x)$ in terms of $F$.
+13. Suppose that $X$ is a continuous RV with support set $[−1, +1]$.
+    (a) Is 2 a possible realization of this variable?
+    (b) What is $P(X = 0.5)$?
+14. True or False: If $X$ is a continuous RV then $P(X \leq 0.3) = P(X < 0.3)$. Explain.
+15. What does it mean to "standardize" a RV? 
+16. Let $X$ be a $\text{Uniform}(0, 1)$ RV. Write down the CDF of $X$.
+17. In a $N(\mu, \sigma^2)$ distribution, what features of the the distribution do the parameters $\mu$ and $\sigma^2$ control?
+18. Suppose that $X \sim N(\mu, \sigma^2)$ Approximately what are the values of the following probabilities?
+    (a) $P(\mu − \sigma \leq X \leq \mu + \sigma)$
+    (b) $P(\mu − 2\sigma \leq X \leq \mu + 2\sigma)$
+    (c) $P(\mu − 3\sigma \leq X \leq \mu + 3\sigma)$
+19. Let $X \sim N(\mu = −2,\sigma^2  = 25)$. Without consulting a table, what is the approximate value of $P(−12 \leq X \leq 8)$?
+20. Let $X \sim N(0, 1)$. Calculate the following:
+    (a) $P(X = 0)$
+    (b) $P(X ≤ −1)$
+    (c) $P(−1.2 \leq X \leq 1.2)$
+    (d) the value of $t$ such that $P(X \leq t) = 0.5$
+    (e) the value of $t$ such that $P(X > t) = 0.80$
+    (f) the value of $t > 0$ such that $P(−t \leq X \leq t) = 0.9$
+    (g) the value of $t > 0$ such that $P(−t \leq X \leq t) = 0.82$
+21. Let $X \sim N (\mu = −2, \sigma^2 9)$. Calculate the following: 
+    (a) $P(X = 0)$
+    (b) $P(X \leq −1)$
+    (c) $P(−1.2 \leq X \leq 1.2)$
+    (d) the value of $t$ such that $P(X \leq t) = 0.5$
+    (e) the value of $t$ such that $P(X > t) = 0.80$
+    (f) the values of $t_0$ and $t_1$ (symmetric around the mean) such that $P(t_0 \leq X \leq t_1) = 0.9$. 
+    (g) the values of $t_0$ and $t_1$ (symmetric around the mean) such that $P(t_0 \leq X \leq t_1) = 0.82$
+22. Suppose that $U \sim N (0, \sigma^2)$ and let $a, b, x$ be constants. Find the distribution of each of the following:
+    (a) $Y = a + U$ 
+    (b) $Y = a + bU$ 
+    (c) $Y = a + bx + U$
+23. Let $X \sim N(\mu = 1, \sigma^2 = 2)$.
+    (a) What is the 1st quartile of $X$?
+    (b) What is the 77th percentile of $X$?
+    (c) What is the median of $X$?
+24. Define the following terms:
+    (a) conditional distribution
+    (b) marginal distribution
+25. Consider the following bivariate PMF $p(X, Y)$
+$$
+\begin{array}{l|cccc}
+& X = 0 & X=2 & X = 3 & X = 4\\
+\hline
+Y=0& \boxed{?} & 2/24 & 2/24 & 1/24\\
+Y=1& 1/24 & 3/24 & 4/24 & 2/24\\
+Y=2& 1/24 & 3/24 & 2/24 & 2/24\\
+\end{array}
+$$
+    (a) Fill in the missing value: $\boxed{?}$.
+    (b) Write out the marginal PMF of $X$.
+    (c) Write out the marginal CDF of $Y$. 
+    (d) Write out the conditional PMF of $Y$ given $X=3$. 
+    (e) Write out the conditional CDF of $X$ given $Y=2$.
+    (f) Are $X$ and $Y$ independent? Explain.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Class 3 - MT Week 7
+1. Consider the population of Oxford undergraduates. Let $X$ be a random variable that represents the distribution of height in centimeters in this population, and $Y$ be a random variable that represents the distribution of weight in kilograms. What are the units of the following quantities?
+    (a) $\mathbb{E}(X)$ 
+    (b) $\text{Var}(Y)$  
+    (c) The standard deviation of $X$ 
+    (d) $Z \equiv \left[X - \mathbb{E}(X)\right] / \sqrt{\text{Var}(X)}$ 
+    (e) $\text{Cov}(X,Y)$ 
+    (f) $\text{Cor}(X,Y)$
+2. Give an example of each:
+    (a) A convex function
+    (b) A concave function
+3. Let $X$ be a random variable with support set $\left\{0, 1, 2 \right\}$, $p(1) = 0.3$, and $p(2) = 0.5$. Calculate $\mathbb{E}[X]$.
+4. Suppose that $X \sim N(\mu, \sigma^2)$.
+    (a) What is $\mathbb{E}[X]$?
+    (b) What is $\text{Var}(X)$?
+5. Let $X$ be a discrete random variable that is equally likely to take on the values $2$ and $4$ and never takes on any other values. Prove or disprove the following claims, either by using a property of expected value that you have learned, or by direct calculation:
+    (a) $\mathbb{E}(X+10)= \mathbb{E}(X) + 10$
+    (b) $\mathbb{E}(X/10) = \mathbb{E}(X)/10$
+    (c) $\mathbb{E}(10/X)=10/\mathbb{E}(X)$
+    (d) $\mathbb{E}(X^2) = [\mathbb{E}(X)]^2$
+    (e) $\mathbb{E}(5X + 2)/10 = [5\mathbb{E}(X) + 2]/10$
+6. State Jensen's Inequality.
+7. Give the formula for each of these quantities in terms of expectations:
+    (a) Variance
+    (b) Covariance
+    (c) Correlation
+8. $X$ be a binary variable where $p = \mathbb{P}(X=1)$ is the proportion of ``ones'' in the population. Write down the expressions for the following quantities in terms of $p$:
+    (a) $\mathbb{E}(X)$
+    (b) $\text{Var}(X)$ 
+9. Let $X$ be a binary variable where $p = \mathbb{P}(X=1)$ is the proportion of "ones" in the population.
+    (a) Show that $\mathbb{E}(X) = p$
+    (b) Show that $\mathbb{E}(X^2) = p$
+    (c) Combine the preceding to parts to show that $\text{Var}(X) = p(1 - p)$.
+10. $X$ be a discrete random variable.
+    (a) Write down the definition of the expected value $\mathbb{E}[X]$ of $X$. 
+    (b) Is $\mathbb{E}[X]$ constant or random? Explain why in one sentence.
+11. What is a conditional expectation?
+12. Formally state the Law of Iterated Expectations.
+13. TRUE or FALSE: the following statements are equivalent
+    (a) $X$ and $Y$ are independent.
+    (b) The covariance between $X$ and $Y$ is zero.
+14. Suppose that $\text{Var}(Y) = 0$ and $\text{Var}(X) > 0$. Calculate $\text{Cov}(X,Y)$.
+15. Suppose $X$ is a random variable with support $\{-1, 0, 1\}$ where $p(-1)=q$ and $p(1) = p$. What relationship must hold between $p$ and $q$ to ensure that $E[X] = 0$?
+16. Suppose that $\mathbb{E}[X]=8$ and $Y= 3 + X/2$. Calculate $\mathbb{E}[Y]$.
+17. Suppose that $X$ is a discrete random variable and $g$ is a function. Explain how to calculate $\mathbb{E}[g(X)]$. Is this the same thing as $g\left(\mathbb{E}[X]\right)$?
+18. Let $X$ be a random variable with support set $\left\{ -1, 1 \right\}$ and $p(-1) = 1/3$. Calculate $\mathbb{E}[X^2]$.
+19. Suppose that $X \sim N(\mu = -2, \sigma^2 = 3)$. What is $\text{Cov}(X,X)$?
+20. Let $X$ and $Y$ random variable with $\mathbb{E}[X] = 2$ and $\mathbb{E}[Y] = 1$. Calculate $\mathbb{E}[X - Y]$.
+21. Let $W = Y + Z$ and suppose that $\text{Cov}(X,Y) = 0$ and $\text{Cov}(X,Z) = 0$. What is the correlation between $W$ and $X$?
+22. Suppose $\mathbb{E}[X] = 2$ and $\text{Var}(X) = 5$. Calculate $\mathbb{E}[X^2]$.
+23. Let $X$ and $Y$ be random variable with $\text{Var}(X) = 2$ , $\text{Var}(Y) = 1$, and $\text{Cov}(X,Y) = 0$. Calculate $\text{Var}(X - Y)$.
+24. Let $X$ and $Y$ be two random variable with $\text{Var}(X) = \sigma_X^2$, $\text{Var}(Y) = \sigma_Y^2$, and $\text{Cov}(X,Y) = \sigma_{XY}$. If $a,b,c$ are constants, what is $\text{Var}(cX + bY + a)$?
+25. Suppose that $X$ and $Y$ are two random variables with correlation $\rho = 0.3$, and standard deviations $\sigma_X = 4$ and $\sigma_Y = 5$.
+    (a) Calculate $\text{Cov}(X,Y)$.
+    (b) Let $Z = (X + Y)/2$. Calculate $\text{Var}(Z)$.
+26. Mark each statement as TRUE or FALSE. If FALSE, explain.
+    (a) The expected value of a sum $\mathbb{E}[X + Y]$ does \emph{not} in general equal the sum of the expected values $\mathbb{E}[X] + \mathbb{E}[Y]$; this only holds when $X$ and $Y$ are independent. 
+    (b) The variance of a sum $Var(X + Y)$ is always equal to the sum of the variances $Var(X) + Var(Y)$.
+27. Let $X$ be a Uniform$(0,1)$ random variable. 
+    (a) Calculate $\mathbb{E}(X)$.
+    (b) Calculate $\mathbb{E}(X^2)$.
+    (c) Combine the preceding two parts to find $\text{Var}(X)$.
+28.  Suppose that $X \sim N(\mu, \sigma^2)$. Approximately what are the following probabilities?
+    (a) $\mathbb{P}(\mu - \sigma \leq X \leq \mu + \sigma)$
+    (b) $\mathbb{P}(\mu - 2\sigma \leq X \leq \mu + 2\sigma)$
+    (c) $\mathbb{P}(\mu - 3\sigma \leq X \leq \mu + 3\sigma)$
+29. Suppose that $X \sim N(0,1)$. Calculate $\mathbb{E}[X^2]$.
+30. Let $X$ and $U$ be random variables with $\mathbb{E}(U|X)=0$ and $\mathbb{E}(X) = 5$. Let $a$ and $b$ be constants, and further define $Y = a + bX + U$.
+    (a) Show that $\mathbb{E}(U) = 0$.
+    (b) Calculate $\mathbb{E}(Y)$.
+    (c) Calculate $\mathbb{E}(Y|X = 0)$.
+    (d) Suppose that $\mathbb{E}(U) = 0$ but $\mathbb{E}(U|X)$ is unknown. Would this make any difference to your answers in parts (b) and (c) above?
+:::
+
+
+
+::: {.callout-note collapse="true" icon="false"}
+## Class 4 - HT Week 1
+
+1. Define the following terms and give a simple example: "population", "sample", "sample size".
+2. Explain the distinction between a parameter and a statistic.
+3. Give examples of a (i) parameter which is also a moment (ii) a parameter which is not a moment.
+4. Briefly compare and contrast sampling and non-sampling error.
+5. Define a simple random sample. Does it help us to address sampling error, non-sampling error, both, or neither?
+6. What is
+    (a) a "random variable"?
+    (b) a "statistic"?
+7. What does it mean for a statistic to have a sampling distribution?
+8. Define the following terms: "standard deviation", "standard error".
+9. Define the terms "estimand", "estimator", "estimate", using the mean as an example.
+10. What does it mean for a set or sequence of random variables to be "iid"?
+11. If sampling is performed without replacement why are the resulting random variables not iid? Under what circumstances does it become, for all practical purposes, irrelevant as regards the iid property whether one draws with or without replacement?
+12. What does it mean for an estimator to be
+    (a) unbiased
+    (b) consistent
+13. Can an estimator be consistent yet biased? If so give an example, if not why not?
+14. Why do we divide by the sample size minus one when we estimate the sample variance?
+15. Suppose the population mean μ is known and we want to estimate the population variance $\sigma^2$. Is $\widehat{\sigma}^2 \equiv \frac{1}{n-1} \sum_{i=1}^n (X_i - \mu)^2$ an unbiased estimator of $\sigma^2$? Justify your answer.
+16. Define the concept of efficiency of an estimator. What does it mean to say that one estimator is more
+efficient than another?
+17. State (formally)
+    (a) the central limit theorem;
+    (b) the law of large numbers.
+18. TRUE or FALSE: the Central Limit Theorem says that large populations are approximately normally distributed. If FALSE, correct the statement.
+19. Give the formal definition of a confidence interval and the "rough intuition" that we can use to interpret it.
+20. How does the width of a confidence interval for a population mean vary with
+    (a) the sample size?
+    (b) the confidence level?
+    (c) the sample variance?
+    (d) the sample mean?
+    (e) the standard error of the sample mean?
+21. Write out the formula for the 95\% confidence interval for
+    (a) a population mean,
+    (b) the difference between the means of two independent populations,
+    (c) the difference between the population means of a pair of variables from a single population.
+22. Explain briefly how your answers to the preceding question would chage if the random variables in question are binary. 
+23. How many standard errors to either side of the mean do you need to go in order to construct a
+    (a) 90\% confidence interval,
+    (b) 95\% confidence interval,
+    (c) 99\% confidence interval?
+24. Using the appropriate statistical tables, how many standard errors to either side of the mean do you need to go in order to construct an 80\% confidence interval?
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Class 5 - HT Week 3
+
+1. What is a "Null Hypothesis"?
+2. Define Type I and Type 2 errors.
+3. If you set a significance level of $\alpha = 0.05$ what proportion of the time would you expect to falsely reject
+the Null hypothesis?
+4. If the significance level of a test is 0.15, and you decide to reject the Null, at what level of confidence are you doing so? What are you being confident about?
+5. Given a test statistic with a Standard Normal distribution, what is the "rule of thumb" critical value for rejecting the Null at a 5\% significance level? What is the "rule of thumb" rejecting it at a 10\% significance level? 
+6. For a normally distributed test statistic, use the appropriate statistical tables to find the critical value for a (two-sided) test with each of the following significance levels: 
+    (a) 6\% 
+    (b) 17\% 
+7. Write out the formula for the test statistic for a test of
+    (a) whether a population mean is equal to a certain value.
+    (b) whether the difference in means in two independent populations is equal to a certain value.
+    (c) whether the difference between the population means of a pair of variables from a single population are the same.
+8. Repeat the preceding problem for the case for the case of binary random variables.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Class 6 - HT Week 5
+
+1. What is the key difference between time series data and cross-section data?
+2. List, and be prepared to describe, the typical features exhibited by time series data.
+3. Define formally (write down the formula) for the population autocorrelation between $X_t$ and $X_{t-h}$.
+4. Sketch the typical autocorrelation functions for
+    (a) a time series with no autocorrelation,
+    (b) a quarterly times series with annual seasonality,
+    (c) a strongly persistent time series.
+5. Define “weak stationarity”.
+6. Why is stationarity important?
+7. If a time series is not stationary, how might you be able to transform it so that it is? Give three examples.
+8. Define formally (write down the formulae) for each of the following:
+    (a) an AR(1) process
+    (b) a Random Walk with Drift
+    (c) a Random Walk
+    (d) a White Noise process
+9. Is a Random Walk a stationary process? If so why? If not why not?
+10. Is it possible for an AR(1) process to be stationary?
+11. Define formally (write down the formula) for $E [X_t|X_{t-1}]$ for a mean-reverting AR(1) process.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Class 7 - HT Week 7
+1. Define formally (write down the formulae)
+   (a) the average treatment effect (ATE);
+   (b) the average effect treatment on the treated (ATT).
+2. Define formally (write down the formula) the decomposition of the average difference between the treated and untreated groups into the ATT plus selection bias.
+3. How (in terms of the effect on the relevant conditional expectations) does randomisation of treatment solve the selection bias problem?
+4. What is meant by the terms
+   (a) “Internal validity”
+   (b) “External Validity”
+5. List the main threats to the internal validity of a study of treatment response.
+6. List the main threats to the external validity of a study of treatment response.
+7. What are likely to be the empirical effect of non-compliance on the calculation of a causal effect. Will it bias the result up or down?
+8. What is the conditional independence assumption?
+9. What are the three main problems encountered when using the conditional independence assumption.
+10. Is the conditional independence assumption verifiable?
+:::

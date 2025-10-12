@@ -3,19 +3,43 @@ project:
 
 website:
   title: "Jasmin Baier"
+  site-url: https://jasmin-baier.github.io/
+  favicon: images/noun-ai-6480924.png
+  search:
+    location: navbar
+    type: overlay
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: research.qmd
+        text: Research
+      - text: Teaching
+        menu:
+          - text: Probability & Statistics
+            href: teaching/prob-and-stats/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/jasmin-baier
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jasminbaier/
+  page-footer:
+    left: "©2025 Jasmin Baier"
+    right:
+      - icon: envelope
+        href: mailto:jasmin.baier@bsg.ox.ac.uk
+  open-graph: true
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
+    code-fold: true
+    smooth-scroll: true
 
-
+execute:
+  freeze: auto   # speed up rebuilds
 

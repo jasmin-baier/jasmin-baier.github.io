@@ -1,0 +1,205 @@
+---
+title: "Problem Sets"
+---
+
+Click below to expand the review questions that you should complete **after each class**. 
+Solutions to the problem sets are provided in the [demonstration lectures](https://canvas.ox.ac.uk/courses/270191/pages/3-dot-2-demonstration-lecture-material?module_item_id=2631684).
+
+
+::: {.callout-note collapse="true" icon="false"}
+## Problem Set 1 
+
+1. Prove, using the probability axioms
+    (a) **The Complement Rule**: $P(A^c) = 1 − P(A)$.
+    (b) **The Probability of the Union of Two Events Rule**: $P(A\cup B) = P (A) + P (B) − P (A\cap B)$
+    (c) **The Bounds on Probabilities Rule**: $P (A \cup B) \leq P (A) + P (B)$
+    (d) **The Logical Consequence Rule**: If $B$ logically entails $A$ then $P (B) \leq P (A)$
+2. Consider the experiment of tossing a coin repeatedly and counting the number of coin tosses required until the first head appears.
+    (a) Write down the sample space.
+    (b) Let $A$ be the event that the number of coin tosses required for the first head to appear is even. Let $B$ be the event that the number of coin tosses required until the first head appears is less than 5. Describe events $A$ and $B$ as sets.
+3. Consider the experiment of tossing a coin 2 times. Consider the events:
+$$
+\begin{align*}
+A &= \text{There is at most one Head}\\
+B &= \text{There is at least one Head and there is at least one Tail}
+\end{align*}
+$$
+    (a) Are events $A$ and $B$ independent?
+    (b) What if you toss the coin 3 times?
+    (c) What if you toss the coin 4 times?
+4. Derive Bayes' Rule from the definition of a conditional probability.
+5. Three percent of Tropicana brand oranges are already rotten when they arrive at the supermarket. In contrast, six percent of Sunkist brand oranges arrive rotten. A local supermarket buys forty percent of its oranges from Tropicana and the rest from Sunkist. Suppose we randomly choose an orange from the supermarket and see that it is rotten. What is the probability that it is a Tropicana?
+6. Imagine there are two universities, University A and University B, who take different approaches to generating research findings. In University A, a team of well-informed experts develop a theory. Their theories are correct 90% of the time. Before publishing a theory, the scientists at University A do an experimental test of the theory to check
+whether it is correct (e.g. a clinical trial). The test is designed so that 90% of correct theories will pass the test and only 10\% of false theories pass the test. 
+    (a) Let $T$ be the event that the theory is true and $\text{Pub}$ be the event that the theory passes the test and is published. Draw a Venn diagram to represent these probabilities.
+    (b) Calculate the probability that a theory from University A is published, i.e $P(\text{Pub})$.
+    (c) Calculate the probability that a published theory from University A is correct, i.e $P(T |\text{Pub})$.
+    (d) In University B, a team of creative experts think of theories that would be rather surprising and interesting if true. These theories are correct only 5% of the time. Again, before publishing their theory, the scientists at University B do that same experimental test as in University A of the theory, i.e. the test is designed so that 90% of correct theories will pass the test and only 10\% of false theories pass the test. Calculate the probability that a published theory from University B is correct.
+    (e) The Research Council governing the publication of research requires that published theories (i.e. those that pass the test) must be replicated before they can be used in practice. Assume that the replication test is like the first test, i.e. the test is designed so that 90\% of correct theories will pass the test and only 10\% of false theories pass the test. Compute the replicability rate of University A and University B (i.e. the pass rate of the second test)
+  
+:::
+
+
+::: {.callout-note collapse="true" icon="false"}
+## Problem Set 2 
+
+1. Consider a random variable $X$ which is uniformly distributed $U(0, 1)$.
+    (a) Draw the probability density function (pdf), $f(x)$. What is the formula for the pdf?
+    (b) Draw the cumulative density function (cdf), $F(x)$. What is the formula for the cdf?
+2. Consider a random variable $X$ which is uniformly distributed $U(0, 1)$.
+    (a) What is the distribution of $Z = 2 + X$?
+    (b) What is the distribution of $Z = 3X$?
+    (c) What is the distribution of $Z = 2 + 3X$?
+3. Consider a random variable X which is uniformly distributed $U(−2, 3)$.
+    (a) What is the distribution of $Z = 2 + X$?
+    (b) What is the distribution of $Z = 3X$?
+    (c) What is the distribution of $Z = 2 + 3X$?
+4. For a random variable $X \sim U (2, 12)$ (read the $\sim$ as "that is distributed")
+    (a) What is $P(3 \leq X \leq 8)$?
+    (b) What is $P(X = 9)$?
+5. Consider a random variable X which is normally distributed with mean 0 and variance of 1.
+    (a) What is the distribution of $Z = 5 + X$?
+    (b) What is the distribution of $Z = 2X$?
+    (c) What is the distribution of $Z = 2 + 3X$?
+6. Consider a random variable $X$ which is normally distributed with mean 2 and variance of 9.
+(a) What is the distribution of $Z = −2 + X$?
+(b) What is the distribution of $Z = X/\sqrt{9}$?
+(c) What is the distribution of $Z = (−2+X)/\sqrt{9}$
+7. If $X \sim∼ N (\mu=−1, \sigma^2 =2)$ what is
+    (a) $P(X = 0)$?
+    (b) $P(X \leq −1)$?
+    (c) $P(−1 \leq X \leq 1)$?
+    (d) the value of $t$ such that $P(X \leq t) = 0.25$
+    (e) the value of $t$ such that $P(X > t) = 0.80$
+    (f) the value of $t$ such that $P(−|t| \leq X \leq |t|) = 0.9$
+8. Suppose that students’ marks on the economics prelims paper are normally distributed with mean 61 and standard deviation 9.5.
+    (a) What is the probability that a student scores (i) less than 50? (ii) 70 or more?
+    (b) What score is exceeded by only 10% of students?
+    (c) Find the median, and the upper and lower quartiles.
+    (d) What proportion of students have scores within 5 marks of the mean?
+9. Consider the following bivariate probability mass function $f(X, Y )$
+$$
+\begin{array}{l|ccc}
+& X=0 & X=2 & X=3 \\
+\hline
+Y=0&1/36 & 1/18 & 1/12\\
+Y=1& 1/9 & 2/9 & 1/3\\
+Y=2& 1/36 &1/18 & 1/12
+\end{array}
+$$
+what is
+    (a) the marginal PMF of $X$?
+    (b) the marginal CDF of $Y$?
+    (c) the conditional PMF of $Y$: $f(Y |X = 3)$?
+    (d) the conditional CDF of $X$: $F(X|Y = 2)$?
+    (e) Are $X$ and $Y$ independent?
+:::    
+    
+    
+
+::: {.callout-note collapse="true" icon="false"}
+## Problem Set 3
+
+1. Let $X$ and $Y$ be random variables and $a,b,c$ be constants. Use the linearity of expectation to derive the following results:
+    (a) $\text{Cov}(X,Y) = \mathbb{E}(XY) - \mathbb{E}(X)\mathbb{E}(Y)$
+    (b) $\text{Var}(a + bX + cY) = b^2 \text{Var}(X) + c^2 \text{Var}(Y) + 2bc \text{Cov}(X,Y)$
+2. Let $X$ and $Y$ be random variables such that $\mathbb{E}[Y] \neq 0$. Show that, provided that all of the relevant expectations exist and are finite, 
+  $$\frac{\mathbb{E}[X]}{\mathbb{E}[Y]} - \mathbb{E}\left[ \frac{X}{Y}\right] = \frac{\text{Cov}(X/Y,\, Y)}{\mathbb{E}[Y]}.$$
+3. Let $X$ be a random variable and $a, b$ be constants. Suppose that $Y = a + b X$. Calculate the correlation between $X$ and $Y$ in each of the following cases:
+    (a) $b > 0$
+    (b) $b < 0$ 
+    (c) $b = 0$
+4. Let $X$ and $U$ be random variables and $a, b$ be constants. Suppose that $Y = a + b X + U$ where $\mathbb{E}(U) = 0$ and $\text{Cov}(X, U) = 0$. 
+    (a) Calculate $\mathbb{E}(Y)$.
+    (b) Calculate $\text{Var}(Y)$.
+    (c) Show that $\text{Cov}(X, Y) = b \text{Var}(X)$
+    (d) Show that $\text{Corr}(X,Y) = b \sqrt{\frac{\text{Var}(X)}{b^2 \text{Var}(X) + \text{Var}(U)}}$.
+5. Let $X$ be a $\text{Bernoulli}(p)$ random variable, i.e.\ $X \in \{0, 1\}$ with $\mathbb{P}(X=1) = p$. Show that, for any other random variable $Y$ such that the relevant expectations exist and are finite
+$$
+\frac{\text{Cov}(X,Y)}{\text{Var}(X)} = \mathbb{E}(Y|X=1) - \mathbb{E}(Y|X=0).
+$$
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Problem Set 4
+1. Define the terms "estimand", "estimator", and "estimate" using the median as an example.
+2. Let $X_1, X_2, \dots X_N \sim \text{iid}$ with mean $\mu$ and variance $\sigma^2$ and let $\bar{X}_N \equiv \frac{1}{N} \sum_{i=1}^n X_i$.
+    (a) Is $\bar{X}_N$ and unbiased estimator of $\mu$?
+    (b) Is $(0.1 X_1 + 0.9 X_2)$ an unbiased estimator of $\mu$? Why or why not?
+    (c) Which is a more efficient estimator of $\mu$: $(0.1 X_1 + 0.9 X_2)$ or $(0.5 X_1 + 0.5 X_2)$? Explain.
+    (d) Suppose that $\mu$ is known. Is $\widehat{\sigma}^2 \equiv \frac{1}{N-1}\sum_{i=1}^N (X_i - \mu)^2$ an unbiased estimator of $\sigma^2$? Explain.
+3. Consider a fictional university, Camford University, which is composed of a large number of colleges. Each college has the same number of first-year economics students. Suppose that students' marks on the economics prelims papaer are normally distributed with mean 61 and standard deviation 9.5. 
+    (a) What is the distribution of the sample mean in a random sample of size $N$?
+    (b) In a random sample of 10 students, what is the probability that their average mark exceeds 63?
+    (c) Suppose that you have a sample of 10 students that is selected by choosing a *college* at random, and then choosing 10 students at random from the college. What can you say about the expected value and variance of their average mark? Explain.
+:::    
+
+::: {.callout-note collapse="true" icon="false"}
+## Problem Set 5
+1. In a random sample of 1165 Oxford PPE applicants, the average score on the TSA test was 60.86, with a standard deviation of 8.02. Construct a 95% confidence interval for the population mean score.
+2. Suppose you are studying the impact of COVID-19 on the labour market. In a random sample of 1000 workers, you find that 354 had been "furloughed" in July 2020. Construct a 90% confidence interval for the population mean furlough rate.
+3. Suppose that we observe hourly wages for a random sample of 150 university graduates: the sample mean is £31 with a standard deviation of £15. In contrast, the sample mean wage is £17 with a standard deviation of £10 for a sample of 225 non-university graduates. Construct an approximate 95% confidence interval for the difference in population mean wages $(\mu_X - \mu_Y)$ between university graduates (X) and non-university graduates (Y).
+4. You are interested in whether the average rent for a room in Oxford is £500 per month. In a random sample of 300 rooms to rent in Oxford, the average rent is £525 per month with a standard deviation of £200. Test the hypothesis that the average Oxford room rent per month is £500.
+5. Suppose you have a large random sample $X_1, \ldots, X_n \sim \text{iid} \, N(\mu, \sigma^2)$, and you test $H_0: \mu = \mu_0$ vs. $H_1: \mu \neq \mu_0$ where $\mu_0$ is some hypothesized value of $\mu$. You decide to set a significance level, $\alpha$, at which to conduct the hypothesis test.
+    (a) Say you choose $\alpha = 0.05$ and reject. Would you still have rejected if you had instead chosen $\alpha = 0.1$? Explain.
+    (b) Say you choose $\alpha = 0.01$ and fail to reject. Would you have failed to reject if you had instead chosen $\alpha = 0.05$? Explain.
+6. A random sample of 35 Netflix users are asked to rate two shows: *The Queen's Gambit* and *Bridgerton*. You can access the dataset as a .csv file [from this url](https://ditraglia.com/data/user_ratings.csv). Use the data to test the null hypothesis that both shows are equally highly rated. 
+7. You are interested in whether the Oxford unemployment rate is the same as the national unemployment rate (5%). In a random sample of 1,000 Oxford residents, you find that 63 are unemployed. Test the hypothesis that the Oxford unemployment rate is the same as the national rate.
+8. Consider two groups A and B composed of 100 people who are suffering from a disease. A drug is given to group A. A placebo is given to group B. It is found that in group A 75 people recover whereas in group B only 65 people recover.
+    (a) Test the hypothesis that the drug helped cure the disease.
+    (b) Now suppose that the sample sizes in each group are 300 and 225 in group A and 195 in group B recover. What do you conclude?
+:::
+
+
+::: {.callout-note collapse="true" icon="false"}
+## Problem Set 6
+1. At [this url](https://climate.nasa.gov/vital-signs/global-temperature/) you can find a plot illustrating the change in global surface temperatures over time, relative to the 1951-1980 average. With reference to the plot, discuss the key differences between time series and cross-sectional data.
+2. If $X_t$ is white noise with mean $\mu$ and variance $\sigma^2$, what process does its first difference ($\Delta X_t = X_t - X_{t-1}$) follow? What is the mean, variance, first order autocovariance, and second order autocovariance of the process?
+3. Consider the following time series process:
+   $$X_t = \epsilon_t + 0.5\epsilon_{t-1} + 0.5\epsilon_{t-2}$$
+   where $\epsilon_t$ is identically and independently distributed where $\epsilon_t \sim N(0, \sigma^2)$.
+    (a) What is the mean and variance of $X_t$?
+    (b) What are the first, second, and third order autocovariances?
+4. Let $\epsilon_t$ be identically and independently distributed with $\epsilon_t \sim N(0, \sigma^2)$. Consider the following time series process:
+   $$X_t = \alpha + \beta X_{t-1} + \epsilon_t$$
+    (a) What is the name commonly given to this type of process? What if $\alpha = 0$ and $\beta = 1$? What if $\alpha = 0$ and $\beta = 0$?
+    (b) By recursing back one period, show that:
+      $$X_t = \alpha + \beta \alpha + \beta^2 X_{t-2} + \epsilon_t + \beta \epsilon_{t-1} \quad (3)$$
+    (c) By using the results on sequences covered in Chapter 4 of the Maths Workbook, show that
+      $$ X_t = \frac{1 - \beta^t}{1 - \beta} \alpha + \beta^t X_0 + \sum_{j=0}^{t-1} \beta^j \epsilon_{t-j}$$
+   Suppose $0 \leq \beta < 1$ and $X_0$ is a random variable with mean $\frac{\alpha}{1 - \beta}$ and variance $\frac{\sigma^2}{1 - \beta^2}$, and is uncorrelated with $\epsilon_t$ for all $t > 0$.
+    (d) Find the mean, variance and autocovariance function of $X_t$ for any $t \geq 1$? Is the process (weakly) stationary?
+5. In studies dating back over 100 years, it’s well established that “regression toward the mean” occurs between the heights of parent and the heights of their adult children. Indicate whether the following statement is true or false: "Parents of tall children will tend to be taller than their children."
+:::
+
+
+::: {.callout-note collapse="true" icon="false"}
+## Problem Set 7
+1. In "Long-Lasting Effects of Socialist Education" by Nicola Fuchs-Schundeln and Paolo Masella the authors study the effects of a socialist education amongst children educated in the former East Germany (GDR). Socialist teaching was an official school subject in the GDR from 7th grade on and aimed to provide a deep knowledge of Marxism-Leninism, and of the socialist system of the GDR. The authors also suggest that an important feature of this educational system was that “critical thinking was not incentivized and divergent opinions were suppresse”. The authors were interested in the causal effect of exposure to the GDR’s educational system on subsequent labour market outcomes. To study this they exploit the very rapid reorganisation of the school system in the East after the fall of the Berlin Wall (November 9, 1989). The socialist elements of the curriculum were dropped almost immediately. The authors used the German Microcensus (2005-8) to look at individuals in date-of-birth cohorts born between 1974 to 1977 in the GDR. These date-of-birth cohorts were still in education at reunification. The outcome variable of interest was whether or not they were employed at the time of the Microcensus (2005-08). The study relies on the following institutional feature: in the GDR, children turning six on or before May 31 of a given year were automatically enrolled in the first grade by September 1 of the same year. Children born on or after June 1 waited another year before starting school. The authors define their control group as consisting of individuals born on or after June 1. The treatment group consisted of individuals born on or before May 31. Treated individuals within each date-of-birth cohort were exposed to a year more socialist teaching (and one year less of Western education) than individuals in the control group. The authors find that, comparing males in the treatment and control groups, the proportion of males who were employed was 0.021 lower in the treatment than the control group with a standard error of 0.004. Comparing females in the treatment and control groups, the proportion of females who were employed was 0.009 lower in the treatment than the control group with a standard error of 0.019. 
+    (a) Conduct suitable hypothesis tests to determine whether the difference in employment rates between the treatment and control groups for men and women respectively were statistically significant. What do you conclude?
+    (b) The authors interpret their results (subject to the results of the statistical tests above) as causal effects. Using the potential outcomes framework and the standard notation write down an expression describing this causal effect.
+    (c) What are the principal assumptions which would justify the authors’ claim that this effect is causal? Why might these assumptions not hold?
+    (d) Unfortunately the German Microcensus only records the current residence of respondents and not their residence at the time when they were at school. The authors therefore assumed that respondents currently residing in the East also received their education in the East. Why might this not be the case? If this is not the case how would it bias the results of the study?
+2. You are interested in the effect of taking extra online classes (e.g. edX or Khan Academy courses) on whether teenagers apply to university. In a sample of 1000 young adults you observe whether or not they applied to university and whether or not they took at least one online class. You also observe whether they got at least five A*-C grades at GCSE.
+   The tables show the numbers in the sample of the various types of young adult and the proportion who applied to university.
+   
+   Table: Numbers of young adults by GCSE grades and whether took at least one online course
+   
+   | No. Online Courses | 0   | ≥1  |
+   |--------------------|-----|-----|
+   | GSCE Grades < 5 A\*-C | 150 | 100 |
+   | ≥ 5 A*-C            | 250 | 500 |
+   
+   Table: Proportion applying to University
+   
+   | No. Online Courses | 0   | ≥1  |
+   |--------------------|-----|-----|
+   | GSCE Grades < 5 A\*-C | 0.3 | 0.8 |
+   | ≥ 5 A*-C            | 0.3 | 0.5 |
+
+   (a) Calculate the average difference in university application rates between those who did at least one online course and those who did not.
+   (b) Does this difference have a causal interpretation? Why or why not?
+   (c) A friend who has done a statistics course suggests that controlling for GCSE grades might help in this context. What does this mean and why might it help?
+   (d) Calculate the conditional treatment effects for those with less than 5 A\*-C grades at GCSE and for those with at least 5 A\*-C at GCSE.
+   (e) Calculate the Average Treatment Effect and the Average Effect of Treatment on the Treated and compare them to the difference you found in part (a).
+:::

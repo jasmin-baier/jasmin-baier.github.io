@@ -1,7 +1,22 @@
 ---
-title: "Jasmin Baier"
+title: "Home"
+image: images/2024_headshot_primary.jpg   # put the headshot *here*
+about:
+  template: trestles                      # required (e.g., jolla | trestles | solana | marquee | broadside)
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/jasmin-baier
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jasminbaier/
 ---
 
-This is a Quarto website.
+I am a doctoral candidate in Behavioral Economics and Public Policy at the Blavatnik School of Government, University of Oxford. My research interests lie at the intersection of behavioral and development economics, with a particular focus on (soft) skills, AI and labor markets, and how humans integrate other people's preferences in their decision-making.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Prior to commencing my doctoral studies, I gained extensive experience in applied research through my role at the Busara Center for Behavioral Economics in Nairobi, where I led and managed field-based projects on cash transfers and educational migration. I also contributed to private sector development initiatives with the World Bank Group in Uganda and held a data science position at the World Data Lab, where I worked on global development metrics.
+
+My early professional experiences at the European Commission and the Austrian National Bank cultivated a longstanding interest in evidence-based policymaking. I hold a B.Sc. in Socio-Economics from WU Vienna and an M.A. in Development Economics from Yale University, where I studied as a Fulbright Scholar.
+
+_favicon AI by Palash Jain from <a href="https://thenounproject.com/browse/icons/term/ai/" target="_blank" title="AI Icons">Noun Project</a> (CC BY 3.0)_
