@@ -188,7 +188,7 @@ $$
 
 
 ::: {.callout-note collapse="true" icon="false"}
-## Class 4 - HT Week 1
+## Class 4 - MT Week 8
 
 1. Define the following terms and give a simple example: "population", "sample", "sample size".
 2. Explain the distinction between a parameter and a statistic.
@@ -235,7 +235,7 @@ efficient than another?
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
-## Class 5 - HT Week 3
+## Class 5 - HT TBC
 
 1. What is a "Null Hypothesis"?
 2. Define Type I and Type 2 errors.
@@ -254,7 +254,7 @@ the Null hypothesis?
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
-## Class 6 - HT Week 5
+## Class 6 - HT TBC
 
 1. What is the key difference between time series data and cross-section data?
 2. List, and be prepared to describe, the typical features exhibited by time series data.
@@ -277,7 +277,7 @@ the Null hypothesis?
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
-## Class 7 - HT Week 7
+## Class 7 - HT TBC
 1. Define formally (write down the formulae)
    (a) the average treatment effect (ATE);
    (b) the average effect treatment on the treated (ATT).
