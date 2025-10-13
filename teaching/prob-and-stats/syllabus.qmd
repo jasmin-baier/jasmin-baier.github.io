@@ -56,7 +56,7 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 ### Dates, Times, and Locations
 MT Week 7
 
-- **Class (Everyone)**: Friday 1:00-3:30pm in the LMH Lodge Coaching Room 
+- **Class**: Friday 1:00-3:30pm in the LMH Lodge Coaching Room 
 
 ### Videos
 - M0: Intermission
@@ -182,4 +182,4 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 
 :::
 
-*Acknowledgement: This course and this website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*
+*Acknowledgement: This course and website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*

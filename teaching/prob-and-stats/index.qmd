@@ -3,29 +3,30 @@ title: "Probability and Statistics | PPE"
 date: 2025-10-12
 ---
 
-
-This document details my teaching arrangements for first-year PPE [prelims probability and statistics](https://canvas.ox.ac.uk/courses/294545/modules) at Oxford for the 2025-2026 academic year. See the [syllabus](syllabus.qmd) for details on the schedule and locations of classes and tutorials. Each class will begin with a [quiz](#quizzes), but there is no work to submit in advance. I expect you to attend all classes and to arrive on time. If you are unwell and unable to attend, please let me know [by email](mailto:jasmin.baier@bsg.ox.ac.uk).
-
+Welcome to [Prelims Probability and Statistics](https://canvas.ox.ac.uk/courses/294545/modules)! This page outlines our teaching arrangements for the 2025-2026 academic year. For the full schedule, including times and locations for our classes and tutorials, please see the [syllabus](syllabus.qmd). Each class will begin with a short [quiz](#quizzes), but you won't have any work to submit beforehand. To get the most out of the course, your punctual attendance at all classes is expected. If you are unwell and unable to attend, please send me an [email](mailto:jasmin.baier@bsg.ox.ac.uk) to let me know.
 
 ## Course Logistics
-Before reading further, log onto canvas and read the [Overview and Instructions](https://canvas.ox.ac.uk/courses/294545/pages/3-dot-0-overview-and-instructions-2?module_item_id=2960418) for prelims probability and statistics to you understand how the course is structured.
+Before diving into the details below, log onto canvas and read the [Overview and Instructions](https://canvas.ox.ac.uk/courses/294545/pages/3-dot-0-overview-and-instructions-2?module_item_id=2960418). This will give you a clear picture of how the course is structured.
 
 ## Collections
-You will have one or two 90-minute collections (mock exams) for prelims probability and statistics; We will discuss the exact details during class but there will likely be at least one at the beginning of TT (April), plus potentially an earlier one at the beginning of HT (January), depending on how the first term goes.  
-I will provide further details in class and post information on this website later in the year.
+You will have one or two 90-minute mock exams, which we call "collections." There will definitely be one at the start of Trinity Term (April). We might also have an earlier one at the beginning of Hilary Term (January); I'll decide on this based on our progress in the first term. We will discuss the final details in class, and I will post more information here later in the year.
 
 ## Quizzes 
 
-Each class will begin with a short, closed-book, closed-notes quiz that I will mark and return to you at the next class. In-class quizzes will *always* include a random sample from the [review questions](review-questions.qmd) assigned for that class. Because you are given these questions in advance, you should be able to answer them correctly on the quiz. If you cannot, this means that you have not come to class adequately prepared. Quizzes may also include additional questions based on the material covered in past classes. These questions will be harder and you will not be given them in advance. They are designed to stretch you and help you practice for collections and the real exam. 
+We will begin every class with a short, closed-book quiz. I will mark them and get them back to you in the following session. The quizzes are designed to help you solidify your knowledge and will have two parts:
+
+    Review Questions: This part will be a random selection from the [review questions](review-questions.qmd) assigned for that class. Since you have these in advance, preparing them thoroughly is the key to doing well and staying on top of the material. Because you are given these questions in advance, you should be able to answer them correctly on the quiz. If you cannot, this means that you have not come to class adequately prepared. 
+
+    Challenge Questions: The quiz may also include some new, more challenging questions based on topics we've covered in previous classes. You won't see these beforehand. Their purpose is to help you think more deeply about the concepts and get valuable practice for your collections and final exam.
 
 ## Before Each Class 
 1. Watch the [lecture videos](https://canvas.ox.ac.uk/courses/294545/pages/3-dot-1-lecture-material-recordings-and-lecture-slides?module_item_id=2960419) listed on the [syllabus](syllabus.qmd). 
-2. Take notes
+2. Take active notes
     - Note down key definitions and formulas.
-    - Make flashcards and memorize them, e.g. using [Anki](https://apps.ankiweb.net).
+    - Creating flashcards (with a tool like [Anki](https://apps.ankiweb.net), for example) is an excellent way to memorize the core concepts.
 3. Solve the assigned [review questions](review-questions.qmd). 
 4. Repeat as needed:
-    - If you have trouble with the review questions, this means that you need to go back to the lecture videos and slides before attempting them again. 
+    - If you get stuck on the review questions, it’s a sign to revisit the lecture videos and slides before attempting them again.
     - Working with friends is highly recommended!
     - Make a note of anything that you find confusing and bring it with you to class.
     
@@ -34,6 +35,6 @@ Complete the [problem set](problem-sets.qmd). Then watch the associated [Demonst
 
 ## Revision Tutorials
 
-I will hold revision tutorials in TT. These will be a mix of review and practice problems. I will provide more details later in the year.
+Later in the year, during Trinity Term (TT), I will run dedicated revision tutorials. These sessions will be a mix of content review and practice problems to help you prepare for your final exams. I will share more details closer to the time.
 
-*Acknowledgement: This course and this website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*
+*Acknowledgement: This course and website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*

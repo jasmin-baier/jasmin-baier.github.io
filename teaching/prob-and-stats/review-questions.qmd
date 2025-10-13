@@ -294,4 +294,4 @@ the Null hypothesis?
 10. Is the conditional independence assumption verifiable?
 :::
 
-*Acknowledgement: This course and this website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*
+*Acknowledgement: This course and website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*

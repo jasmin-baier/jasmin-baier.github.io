@@ -3,7 +3,7 @@ title: "Problem Sets"
 ---
 
 Click below to expand the review questions that you should complete **after each class**. 
-Solutions to the problem sets are provided in the [demonstration lectures](https://canvas.ox.ac.uk/courses/270191/pages/3-dot-2-demonstration-lecture-material?module_item_id=2631684).
+Solutions to the problem sets are provided in the [demonstration lectures](https://canvas.ox.ac.uk/courses/294545/pages/3-dot-2-demonstration-lecture-material?module_item_id=2960420).
 
 
 ::: {.callout-note collapse="true" icon="false"}
@@ -204,4 +204,4 @@ $$
    (e) Calculate the Average Treatment Effect and the Average Effect of Treatment on the Treated and compare them to the difference you found in part (a).
 :::
 
-*Acknowledgement: This course and this website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*
+*Acknowledgement: This course and website heavily rely on material prepared by [Francis DiTraglia](https://ditraglia.com/) who is kindly allowing me to use his texts, quizzes & review questions*
