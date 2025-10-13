@@ -15,9 +15,9 @@ You will have one or two 90-minute mock exams, which we call "collections." Ther
 
 We will begin every class with a short, closed-book quiz. I will mark them and get them back to you in the following session. The quizzes are designed to help you solidify your knowledge and will have two parts:
 
-    Review Questions: This part will be a random selection from the [review questions](review-questions.qmd) assigned for that class. Since you have these in advance, preparing them thoroughly is the key to doing well and staying on top of the material. Because you are given these questions in advance, you should be able to answer them correctly on the quiz. If you cannot, this means that you have not come to class adequately prepared. 
+- Review Questions: This part will be a random selection from the [review questions](review-questions.qmd) assigned for that class. Since you have these in advance, preparing them thoroughly is the key to doing well and staying on top of the material. Because you are given these questions in advance, you should be able to answer them correctly on the quiz. If you cannot, this means that you have not come to class adequately prepared. 
 
-    Challenge Questions: The quiz may also include some new, more challenging questions based on topics we've covered in previous classes. You won't see these beforehand. Their purpose is to help you think more deeply about the concepts and get valuable practice for your collections and final exam.
+- Challenge Questions: The quiz may also include some new, more challenging questions based on topics we've covered in previous classes. You won't see these beforehand. Their purpose is to help you think more deeply about the concepts and get valuable practice for your collections and final exam.
 
 ## Before Each Class 
 1. Watch the [lecture videos](https://canvas.ox.ac.uk/courses/294545/pages/3-dot-1-lecture-material-recordings-and-lecture-slides?module_item_id=2960419) listed on the [syllabus](syllabus.qmd). 
