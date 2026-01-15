@@ -105,9 +105,9 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 ## Unit \#5 - Statistics II (HT TBC)
 
 ### Dates, Times, and Locations
-HT TBC 
+HT Week 1
 
-- **Class**: TBC
+- **Class**: Tuesday 3:00-5:00pm in the LMH Lodge Seminar Room
 
 ### Videos
 - S6: Tests of Statistical Hypotheses - Overview
@@ -125,11 +125,12 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 
 
 ::: {.callout-note collapse="true" icon="false"}
-## Unit \#6 - Time Series (HT TBC )
+## Unit \#6 - Time Series (HT TBC)
 
 ### Dates, Times, and Locations
+HT Week 3
 
-- **Class**: TBC
+- **Class**: Tuesday 3:00-5:00pm in the LMH Lodge Seminar Room
 
 ### Videos
 
@@ -153,9 +154,9 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 ## Unit \#7 - Causal Inference (HT TBC)
 
 ### Dates, Times, and Locations
-HT TBC
+HT Week 5
 
-- **Class (Everyone)**: TBC
+- **Class (Everyone)**: Tuesday 3:00-5:00pm in the LMH Lodge Seminar Room
 
 ### Videos
 For this class there are *three sets of videos*: (1) [Francis DiTraglia's introduction to causal inference for a general audience](https://youtu.be/NeAkMcgdWxA), (2) the lecture videos:
