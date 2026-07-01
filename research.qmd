@@ -2,13 +2,26 @@
 title: "Research"
 ---
 
-**Working Papers & Work in Progress**  
+**Working Papers & Work in Progress**
+
+Baier, J. Complementarities between AI- and Human Career Guidance in Kenyan Youth: Information, Recommendation, and Persuasion. (collecting baseline data)
+
 Baier, J. AI-facilitated Skills Elicitation, Skills-based Job Matching, and Personalized Labor Market Information in South Africa. (pilot data collection)
 
-Baier, J., Enriquez, J.‑R., & Kazemi, S. From Pilots to Prompts: Validating LLM In‑Silico Predictions Against Statistical Baselines in Low‑Resource Contexts. (working paper coming soon)
+Baier, J., Enriquez, J.‑R., & Kazemi, S. From Pilots to Prompts: Validating LLM In‑Silico Policy Impact Predictions Against Statistical Baselines in Low‑Resource Contexts. (working paper)
 
-**Peer-Reviewed Publications**  
-Baier, J., Barasa, L., Bottan, N., Ghosh, A., & Millrine, M. (2025). (conditionally accepted via pre-results review at the Journal for Development Economics). Learning Through Living Room Screens: The Impact of an Educational TV Show on Kenyan Children's Learning and Attitudes. 
+Baier, J., & Martinelli, G. Novel forms of impact prediction: the future of combining Bayesian Hierarchical Modelling with NLP-regressors. (working paper)
 
-Watson, J., Baier, J., Mughogho, W., & Millrine, M. (2023). An exploratory investigation into the factors related to EdTech use among Kenyan girls. British Journal of Educational Technology, 54, 1006–1024.
+Baier, J., Garg, P., & Crosta, T. Global Automation Atlas. (working paper — [automationatlas.org](https://automationatlas.org/atlas/))
 
+Baier, J., & Ghosh, A. Mechanisms of Reading Comprehension: Curiosity, Executive Function, and Cross-Linguistic Transfer in Educational Media. (working paper)
+
+Haushofer, J., & Baier, J. Causal evidence on income satiation points of happiness and well-being in Kenya. (in progress)
+
+Baier, J., & Sankhe, P. The Neuroscience and Social Science of Agency: An interdisciplinary perspective on the effects of cash transfers on controllability. (proposal stage)
+
+**Peer-Reviewed Publications**
+
+Baier, J., Barasa, L., Bottan, N., Ghosh, A., & Millrine, M. (2025). Learning Through Living Room Screens: The Impact of an Educational TV Show on Kenyan Children's Learning and Attitudes. (conditionally accepted via pre-results review at the Journal of Development Economics).
+
+Watson, J., Baier, J., Mughogho, W., & Millrine, M. (2023). An exploratory investigation into the factors related to EdTech use among Kenyan girls. British Journal of Educational Technology, 54, 1006–1024. [doi.org/10.1111/bjet.13307](https://doi.org/10.1111/bjet.13307)
