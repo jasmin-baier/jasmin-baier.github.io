@@ -4,7 +4,7 @@ title: "Research"
 
 ## Publications
 
-### [An exploratory investigation into the factors related to EdTech use among Kenyan girls](https://doi.org/10.1111/bjet.13307)
+### An exploratory investigation into the factors related to EdTech use among Kenyan girls
 
 with Joe Watson, Winnie Mughogho & Mark Millrine · *British Journal of Educational Technology*, 2023
 
@@ -12,7 +12,7 @@ with Joe Watson, Winnie Mughogho & Mark Millrine · *British Journal of Educatio
 
 ## Forthcoming / Conditionally Accepted
 
-### [Learning Through Living Room Screens: The Impact of an Educational TV Show on Kenyan Children's Learning and Attitudes](https://ssrn.com/abstract=6720325)
+### Learning Through Living Room Screens: The Impact of an Educational TV Show on Kenyan Children's Learning and Attitudes
 
 with Laura Barasa, Nicolas Bottan, Anushka Ghosh & Mark Millrine · *Journal of Development Economics* (conditionally accepted via pre-results review)
 
@@ -24,7 +24,7 @@ We present experimental evidence from Kenya on whether educational television im
 
 ## Working Papers
 
-### [Global Automation Atlas](https://automationatlas.org/atlas/)
+### Global Automation Atlas
 
 with Prashant Garg & Tommaso Crosta · *Working paper*
 
@@ -42,7 +42,7 @@ with Jose-Ramon Enriquez & Sharif Kazemi · *Working paper*
 Can large language models predict how people respond in survey experiments? We propose a Machine-Augmented Social Simulation (MASS) pipeline that benchmarks LLMs against both parametric and nonparametric statistical baselines, tuning prompt design on a small subset of human observations. Applied to a 63-country climate megastudy (N ≈ 59,000; 45 languages; 12 treatment arms), prompt design accounts for more error variance than the choice of model, with a 13-fold range in RMSE between the best and worst configurations, and configuration is not additive on its components. LLMs outperform the baselines at the country-by-arm aggregate level but underperform at the individual level, reconciling mixed prior evidence on simulation fidelity.
 :::
 
-### [Mechanisms of Reading Comprehension: Curiosity, Executive Function, and Cross-Linguistic Transfer in Educational Media](https://ssrn.com/abstract=5277125)
+### Mechanisms of Reading Comprehension: Curiosity, Executive Function, and Cross-Linguistic Transfer in Educational Media
 
 with Anushka Ghosh · *Working paper*
 
