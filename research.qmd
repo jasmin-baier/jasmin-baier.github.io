@@ -10,7 +10,7 @@ listing:
     - research/from-pilots-to-prompts.qmd
     - research/mechanisms-reading-comprehension.qmd
     - research/impact-prediction-bhm-nlp.qmd
-    - research/query2effect-causal-effects.qmd
+    - research/forecasting-causal-effects.qmd
     - research/complementarities-ai-human-guidance.qmd
     - research/skills-job-matching-south-africa.qmd
     - research/income-satiation.qmd

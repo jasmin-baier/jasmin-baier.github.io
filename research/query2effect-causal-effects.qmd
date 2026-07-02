@@ -1,9 +1,0 @@
----
-title: "Predicting Causal Effects from Natural Language Queries using Structured Representations"
-subtitle: "Under review · EMNLP 2026"
-author: "with Giuliano Martinelli, Piriyakorn Piriyatamwong, Abelardo Carlos Martinez Lorenzo, Riccardo Orlando, Satvik Garg, Sharif Kazemi, Linxi Wang, Arianna Legovini & Samuel Fraiberger"
-description: "A benchmark and structured-representation method for forecasting causal effect sizes directly from natural-language questions."
-categories: ["Prediction & Simulation", "Development"]
----
-
-Randomized controlled trials give reliable estimates of the causal effects of interventions but are costly and slow to run, motivating interest in forecasting intervention effects from existing experimental evidence. Can large language models predict causal effect sizes directly from free-form questions? We introduce Query2Effect, a large-scale benchmark of more than 73,000 questions aligned with experiment descriptions, built to mimic realistic information-seeking by varying query specificity along implicitness, abstraction, and ambiguity. We propose a modular framework that first uses an LLM to construct a synthetic structured representation of the experiment, then predicts the effect size with a supervised encoder. This substantially reduces prediction error and improves generalization relative to prompting off-the-shelf LLMs, lowering absolute error by 27% to 186%. Separating semantic interpretation from numerical estimation appears critical for forecasting causal effects from language.

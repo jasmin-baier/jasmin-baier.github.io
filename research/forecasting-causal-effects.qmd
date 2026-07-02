@@ -1,0 +1,9 @@
+---
+title: "Forecasting Causal Effect Sizes with Language Models"
+subtitle: "Working paper"
+author: "with Giuliano Martinelli, Sharif Kazemi, Arianna Legovini, Samuel Fraiberger and others"
+description: "Whether large language models can predict the size of a causal effect from a plain-language question."
+categories: ["Prediction & Simulation", "Development"]
+---
+
+Randomized controlled trials give reliable estimates of the causal effects of interventions, but they are costly and slow to run, which motivates interest in forecasting intervention effects from existing evidence. Can large language models predict the size of a causal effect directly from a free-form question? Using a large collection of natural-language questions paired with experimental evidence, we develop a modular approach that first turns a question into an intermediate structured description of the intervention and its outcome, then estimates the effect size with a dedicated model. Separating semantic interpretation from numerical estimation substantially improves accuracy and generalization over prompting off-the-shelf language models.
