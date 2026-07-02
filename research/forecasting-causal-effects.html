@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="with Giuliano Martinelli, Sharif Kazemi, Arianna Legovini, Samuel Fraiberger and others">
-<meta name="description" content="Whether large language models can predict the size of a causal effect from a plain-language question.">
+<meta name="author" content="with Giuliano Martinelli, Piriyakorn Piriyatamwong, Abelardo Carlos Martinez Lorenzo, Riccardo Orlando, Satvik Garg, Sharif Kazemi, Linxi Wang, Arianna Legovini &amp; Samuel Fraiberger">
+<meta name="description" content="A benchmark and structured-representation method for forecasting causal effect sizes directly from natural-language questions. arXiv">
 
-<title>Forecasting Causal Effect Sizes with Language Models – Jasmin Baier</title>
+<title>Predicting Causal Effects from Natural Language Queries using Structured Representations – Jasmin Baier</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -80,8 +80,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Forecasting Causal Effect Sizes with Language Models – Jasmin Baier">
-<meta property="og:description" content="Whether large language models can predict the size of a causal effect from a plain-language question.">
+<meta property="og:title" content="Predicting Causal Effects from Natural Language Queries using Structured Representations – Jasmin Baier">
+<meta property="og:description" content="A benchmark and structured-representation method for forecasting causal effect sizes directly from natural-language questions.arXiv">
 <meta property="og:site_name" content="Jasmin Baier">
 </head>
 
@@ -316,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Forecasting Causal Effect Sizes with Language Models</h1>
+<h1 class="title">Predicting Causal Effects from Natural Language Queries using Structured Representations</h1>
 <p class="subtitle lead">Working paper</p>
   <div class="quarto-categories">
     <div class="quarto-category">Prediction &amp; Simulation</div>
@@ -326,7 +326,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Whether large language models can predict the size of a causal effect from a plain-language question.
+    A benchmark and structured-representation method for forecasting causal effect sizes directly from natural-language questions.<br><a href="https://arxiv.org/abs/2605.29631">arXiv</a>
   </div>
 </div>
 
@@ -336,7 +336,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>with Giuliano Martinelli, Sharif Kazemi, Arianna Legovini, Samuel Fraiberger and others </p>
+             <p>with Giuliano Martinelli, Piriyakorn Piriyatamwong, Abelardo Carlos Martinez Lorenzo, Riccardo Orlando, Satvik Garg, Sharif Kazemi, Linxi Wang, Arianna Legovini &amp; Samuel Fraiberger </p>
           </div>
   </div>
     
@@ -349,7 +349,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Randomized controlled trials give reliable estimates of the causal effects of interventions, but they are costly and slow to run, which motivates interest in forecasting intervention effects from existing evidence. Can large language models predict the size of a causal effect directly from a free-form question? Using a large collection of natural-language questions paired with experimental evidence, we develop a modular approach that first turns a question into an intermediate structured description of the intervention and its outcome, then estimates the effect size with a dedicated model. Separating semantic interpretation from numerical estimation substantially improves accuracy and generalization over prompting off-the-shelf language models.</p>
+<p><a href="https://arxiv.org/abs/2605.29631">arXiv</a></p>
+<p>Randomized controlled trials give reliable estimates of causal effects but are costly and slow to run, motivating interest in forecasting intervention effects from existing experimental evidence. Can large language models predict causal effect sizes directly from free-form questions? We introduce Query2Effect, a large-scale benchmark of more than 73,000 questions aligned with experiment descriptions, built to mimic realistic information-seeking by varying query specificity along implicitness, abstraction, and ambiguity. We propose a modular framework that first uses an LLM to construct a synthetic structured representation of the experiment, then predicts the effect size with a supervised encoder. This substantially reduces prediction error and improves generalization relative to prompting off-the-shelf LLMs, lowering absolute error by 27% to 186%. Separating semantic interpretation from numerical estimation appears critical for forecasting causal effects from language.</p>
 
 
 
