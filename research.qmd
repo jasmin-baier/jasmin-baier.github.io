@@ -17,6 +17,7 @@ with Joe Watson, Winnie Mughogho & Mark Millrine · *British Journal of Educatio
 with Laura Barasa, Nicolas Bottan, Anushka Ghosh & Mark Millrine · *Journal of Development Economics* (conditionally accepted via pre-results review)
 
 [SSRN](https://ssrn.com/abstract=6720325) · [SSRN (earlier version)](https://ssrn.com/abstract=5022687)
+
 ::: {.callout-note collapse="true" appearance="minimal" title="Abstract"}
 We present experimental evidence from Kenya on whether educational television improves children's skills. Using a pre-registered encouragement design with 4,300 primary-school children, we evaluate *Nuzo & Namia*, a free-to-air literacy show. It raised curiosity by 12% of a standard deviation and, more tentatively, reading comprehension by 9%, with no spillovers to other literacy outcomes. Gains concentrate among children from English-speaking households, so the English-language broadcast may widen existing gaps; we also find suggestive evidence it reinforced traditional gender attitudes. The effects appear to run through the show's informational content rather than changes in time use or parental investment. At \$18.48 per standard-deviation gain in comprehension, the show remains highly cost-effective.
 :::
@@ -28,6 +29,7 @@ We present experimental evidence from Kenya on whether educational television im
 with Prashant Garg & Tommaso Crosta · *Working paper*
 
 [Project site](https://automationatlas.org/atlas/)
+
 ::: {.callout-note collapse="true" appearance="minimal" title="Abstract"}
 Existing automation-exposure measures assign fixed scores to tasks or occupations, so they cannot travel across development settings. We build a task-based, country-specific measure that separates labour-substituting from labour-augmenting automation and pins down the role of AI. The measure spans 124 countries: an atlas of 2.33 million task-country labels covering 99% of world population and GDP. Exposure is highly uneven, ranging from 3.3% of tasks in South Sudan to 61.6% in China, and rises with income. Exposed tasks skew toward substitution rather than augmentation, and low-income countries are disproportionately exposed to substitution; less advanced forms of automation account for over half of exposed tasks there, versus about a quarter in high-income countries. AI tends to substitute for labour in poorer settings and augment it in richer ones, and female employment is more exposed to substitution than male employment. Automation is not a single global shock to a fixed set of tasks, but a country-conditioned process shaped by the complements that make technologies usable at scale.
 :::
@@ -45,6 +47,7 @@ Can large language models predict how people respond in survey experiments? We p
 with Anushka Ghosh · *Working paper*
 
 [SSRN](https://ssrn.com/abstract=5277125)
+
 ### Novel forms of impact prediction: the future of combining Bayesian Hierarchical Modelling with NLP-regressors
 
 with G. Martinelli · *Working paper*
