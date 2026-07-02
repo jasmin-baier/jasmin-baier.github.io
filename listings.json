@@ -1,6 +1,17 @@
 [
   {
-    "listing": "/teaching/index.html",
-    "items": []
+    "listing": "/research.html",
+    "items": [
+      "/research/edtech-kenyan-girls.html",
+      "/research/living-room-screens.html",
+      "/research/global-automation-atlas.html",
+      "/research/from-pilots-to-prompts.html",
+      "/research/mechanisms-reading-comprehension.html",
+      "/research/impact-prediction-bhm-nlp.html",
+      "/research/complementarities-ai-human-guidance.html",
+      "/research/skills-job-matching-south-africa.html",
+      "/research/income-satiation.html",
+      "/research/neuroscience-of-agency.html"
+    ]
   }
 ]

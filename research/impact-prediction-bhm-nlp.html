@@ -2,14 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-10-12">
+<meta name="author" content="with G. Martinelli">
+<meta name="description" content="Combining Bayesian hierarchical modelling with NLP regressors to predict the impact of policies and interventions.">
 
-<title>Probability and Statistics | PPE – Jasmin Baier</title>
+<title>Novel forms of impact prediction: the future of combining Bayesian Hierarchical Modelling with NLP-regressors – Jasmin Baier</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -38,14 +42,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e8964db687007ca8dd88d9d9ce58e3ef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,8 +80,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Probability and Statistics | PPE – Jasmin Baier">
-<meta property="og:description" content="">
+<meta property="og:title" content="Novel forms of impact prediction: the future of combining Bayesian Hierarchical Modelling with NLP-regressors – Jasmin Baier">
+<meta property="og:description" content="Combining Bayesian hierarchical modelling with NLP regressors to predict the impact of policies and interventions.">
 <meta property="og:site_name" content="Jasmin Baier">
 </head>
 
@@ -274,7 +278,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
         <li>
-    <a class="dropdown-item" href="../teaching/prob-and-stats.html">
+    <a class="dropdown-item" href="../teaching/prob-and-stats/index.html">
  <span class="dropdown-text">Probability &amp; Statistics</span></a>
   </li>  
     </ul>
@@ -303,19 +307,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#read-this-first" id="toc-read-this-first" class="nav-link active" data-scroll-target="#read-this-first">Read This First</a></li>
-  <li><a href="#collections" id="toc-collections" class="nav-link" data-scroll-target="#collections">Collections</a></li>
-  <li><a href="#quizzes" id="toc-quizzes" class="nav-link" data-scroll-target="#quizzes">Quizzes</a></li>
-  <li><a href="#before-each-class" id="toc-before-each-class" class="nav-link" data-scroll-target="#before-each-class">Before Each Class</a></li>
-  <li><a href="#after-each-class" id="toc-after-each-class" class="nav-link" data-scroll-target="#after-each-class">After Each Class</a></li>
-  <li><a href="#revision-tutorials" id="toc-revision-tutorials" class="nav-link" data-scroll-target="#revision-tutorials">Revision Tutorials</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -323,20 +316,29 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Probability and Statistics | PPE</h1>
-</div>
+<h1 class="title">Novel forms of impact prediction: the future of combining Bayesian Hierarchical Modelling with NLP-regressors</h1>
+<p class="subtitle lead">Working paper</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Prediction &amp; Simulation</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Combining Bayesian hierarchical modelling with NLP regressors to predict the impact of policies and interventions.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 12, 2025</p>
-    </div>
+             <p>with G. Martinelli </p>
+          </div>
   </div>
+    
   
     
   </div>
@@ -346,47 +348,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This document details my teaching arrangements for first-year PPE <a href="https://canvas.ox.ac.uk/courses/270191/modules/445724">prelims probability and statistics</a> at Oxford for the 2024-2025 academic year. This year I’m tutoring two groups of students: one from LMH and another from St Anne’s. I’ll teach using a combination of classes (everyone) and tutorials (two groups) split across Michaelmas and Hilary terms. See the <a href="syllabus.qmd">syllabus</a> for details on the schedule and locations of classes and tutorials. Each class will begin with a <a href="#quizzes">quiz</a>, but there is no work to submit in advance. I expect you to attend all classes and to arrive on time. If you are unwell and unable to attend, please let me know <a href="mailto:francis.ditraglia@economics.ox.ac.uk">by email</a>.</p>
-<section id="read-this-first" class="level2">
-<h2 class="anchored" data-anchor-id="read-this-first">Read This First</h2>
-<p>Before reading further, log onto canvas and read the <a href="https://canvas.ox.ac.uk/courses/270191/pages/3-dot-0-overview-and-instructions-2?module_item_id=2631682">Overview and Instructions</a> for prelims probability and statistics to you understand how the course is structured.</p>
-</section>
-<section id="collections" class="level2">
-<h2 class="anchored" data-anchor-id="collections">Collections</h2>
-<p>You will have two 90-minute collections (mock exams) for prelims probability and statistics: one at the beginning of HT covering probability, and another at the beginning of TT covering all of the course material. I will provide further details in class and post information on this website later in the year.</p>
-</section>
-<section id="quizzes" class="level2">
-<h2 class="anchored" data-anchor-id="quizzes">Quizzes</h2>
-<p>Each class will begin with a short, closed-book, closed-notes quiz that I will mark and return to you at the next class. In-class quizzes will <em>always</em> include a random sample from the <a href="review-questions.qmd">review questions</a> assigned for that class. Because you are given these questions in advance, you should be able to answer them correctly on the quiz. If you cannot, this means that you have not come to class adequately prepared. Quizzes may also include additional questions based on the material covered in past classes. These questions will be harder and you will not be given them in advance. They are designed to help you practice for collections and the real exam.</p>
-</section>
-<section id="before-each-class" class="level2">
-<h2 class="anchored" data-anchor-id="before-each-class">Before Each Class</h2>
-<ol type="1">
-<li>Watch the <a href="https://canvas.ox.ac.uk/courses/270191/pages/3-dot-1-lecture-material-recordings-and-lecture-slides?module_item_id=2631683">lecture videos</a> listed on the <a href="syllabus.qmd">syllabus</a>.</li>
-<li>Take notes
-<ul>
-<li>Note down key definitions and formulas.</li>
-<li>Make flashcards and memorize them using <a href="https://apps.ankiweb.net">Anki</a>.</li>
-</ul></li>
-<li>Solve the assigned <a href="review-questions.qmd">review questions</a>.</li>
-<li>Repeat as needed:
-<ul>
-<li>If you have trouble with the review questions, this means that you need to go back to the lecture videos and slides before attempting them again.</li>
-<li>Working with friends is highly recommended!</li>
-<li>Make a note of anything that you find confusing and bring it with you to class.</li>
-</ul></li>
-</ol>
-</section>
-<section id="after-each-class" class="level2">
-<h2 class="anchored" data-anchor-id="after-each-class">After Each Class</h2>
-<p>Complete the <a href="problem-sets.qmd">problem set</a>. Then watch the associated <a href="https://canvas.ox.ac.uk/courses/270191/pages/3-dot-2-demonstration-lecture-material?module_item_id=2631684">Demonstration Lecture</a> for solutions and explanations. Your problem set questions are neither collected nor marked, but they will serve as inspiration for future quiz and collections problems.</p>
-</section>
-<section id="revision-tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="revision-tutorials">Revision Tutorials</h2>
-<p>I will hold two revision tutorials in TT. These will be a mix of review and practice problems. I will provide more details later in the year.</p>
+<p>Combining Bayesian hierarchical modelling with NLP regressors to predict the impact of policies and interventions.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -453,13 +417,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -805,7 +770,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© {date:YYYY} Jasmin Baier</p>
+<p>©2025 Jasmin Baier</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
