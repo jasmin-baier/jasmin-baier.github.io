@@ -1,0 +1,11 @@
+---
+title: "Global Automation Atlas"
+subtitle: "Working paper"
+author: "with Prashant Garg & Tommaso Crosta"
+description: "A task-based, country-specific atlas of automation exposure across 124 countries, separating labour substitution from augmentation."
+categories: ["AI & Labor Markets", "Development"]
+---
+
+[Project site](https://automationatlas.org/atlas/)
+
+Existing automation-exposure measures assign fixed scores to tasks or occupations, so they cannot travel across development settings. We build a task-based, country-specific measure that separates labour-substituting from labour-augmenting automation and pins down the role of AI. The measure spans 124 countries: an atlas of 2.33 million task-country labels covering 99% of world population and GDP. Exposure is highly uneven, ranging from 3.3% of tasks in South Sudan to 61.6% in China, and rises with income. Exposed tasks skew toward substitution rather than augmentation, and low-income countries are disproportionately exposed to substitution; less advanced forms of automation account for over half of exposed tasks there, versus about a quarter in high-income countries. AI tends to substitute for labour in poorer settings and augment it in richer ones, and female employment is more exposed to substitution than male employment. Automation is not a single global shock to a fixed set of tasks, but a country-conditioned process shaped by the complements that make technologies usable at scale.

@@ -1,0 +1,11 @@
+---
+title: "Learning Through Living Room Screens: The Impact of an Educational TV Show on Kenyan Children's Learning and Attitudes"
+subtitle: "Forthcoming · Journal of Development Economics (conditionally accepted via pre-results review)"
+author: "with Laura Barasa, Nicolas Bottan, Anushka Ghosh & Mark Millrine"
+description: "A free-to-air literacy TV show in Kenya raised children's curiosity and, more tentatively, reading comprehension."
+categories: ["Skills & Learning", "Behavioral Economics", "Field Experiments", "Development"]
+---
+
+[SSRN](https://ssrn.com/abstract=6720325) · [SSRN (earlier version)](https://ssrn.com/abstract=5022687)
+
+We present experimental evidence from Kenya on whether educational television improves children's skills. Using a pre-registered encouragement design with 4,300 primary-school children, we evaluate *Nuzo & Namia*, a free-to-air literacy show. It raised curiosity by 12% of a standard deviation and, more tentatively, reading comprehension by 9%, with no spillovers to other literacy outcomes. Gains concentrate among children from English-speaking households, so the English-language broadcast may widen existing gaps; we also find suggestive evidence it reinforced traditional gender attitudes. The effects appear to run through the show's informational content rather than changes in time use or parental investment. At \$18.48 per standard-deviation gain in comprehension, the show remains highly cost-effective.

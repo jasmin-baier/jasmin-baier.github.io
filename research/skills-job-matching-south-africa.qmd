@@ -1,0 +1,8 @@
+---
+title: "AI-facilitated Skills Elicitation, Skills-based Job Matching, and Personalized Labor Market Information in South Africa"
+subtitle: "Work in progress · pilot data collection (South Africa)"
+description: "AI-facilitated skills elicitation and job matching with personalized labour-market information in South Africa."
+categories: ["AI & Labor Markets", "Skills & Learning", "Development"]
+---
+
+AI-facilitated skills elicitation and skills-based job matching, paired with personalized labour-market information, for young jobseekers in South Africa.

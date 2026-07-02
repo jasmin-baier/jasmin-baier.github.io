@@ -1,0 +1,9 @@
+---
+title: "The Neuroscience and Social Science of Agency: An interdisciplinary perspective on the effects of cash transfers on controllability"
+subtitle: "Proposal stage"
+author: "with Pranav Sankhe"
+description: "An interdisciplinary look at how cash transfers affect people's sense of control and agency."
+categories: ["Behavioral Economics", "Well-being", "Development"]
+---
+
+An interdisciplinary perspective, spanning neuroscience and social science, on how cash transfers shape people's sense of control and agency.

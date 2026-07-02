@@ -1,0 +1,9 @@
+---
+title: "Mechanisms of Reading Comprehension: Curiosity, Executive Function, and Cross-Linguistic Transfer in Educational Media"
+subtitle: "Working paper"
+author: "with Anushka Ghosh"
+description: "How curiosity, executive function, and cross-linguistic transfer drive learning from educational media."
+categories: ["Skills & Learning", "Behavioral Economics"]
+---
+
+[SSRN](https://ssrn.com/abstract=5277125)

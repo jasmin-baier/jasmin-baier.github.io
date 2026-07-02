@@ -1,0 +1,9 @@
+---
+title: "An exploratory investigation into the factors related to EdTech use among Kenyan girls"
+subtitle: "Published · British Journal of Educational Technology (2023)"
+author: "with Joe Watson, Winnie Mughogho & Mark Millrine"
+description: "What shapes whether Kenyan girls take up and use educational technology."
+categories: ["Skills & Learning", "Development"]
+---
+
+[Paper (open access)](https://doi.org/10.1111/bjet.13307)

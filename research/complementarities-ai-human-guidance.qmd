@@ -1,0 +1,8 @@
+---
+title: "Complementarities between AI- and Human Career Guidance in Kenyan Youth: Information, Recommendation, and Persuasion"
+subtitle: "Work in progress · collecting baseline data (Kenya)"
+description: "An RCT in Kenya testing whether AI can extend career guidance, and whether it works by informing or persuading jobseekers."
+categories: ["AI & Labor Markets", "Behavioral Economics", "Field Experiments", "Development"]
+---
+
+Personalized career guidance is one of the few scalable tools that targets the information frictions behind occupational mismatch in low- and middle-income countries, but counselor time caps its reach. Can AI relax that constraint? I run a randomized controlled trial with about 4,000 young jobseekers across four urban and peri-urban counties in Kenya, comparing human-only, AI-only, and hybrid AI-plus-human guidance in a 2×2 factorial, and separately randomizing whether AI support stops at a recommendation or adds persuasion and action support. The design uses AI as a research instrument: it fixes the informativeness of advice and the strength of persuasion independently across arms, something a study of human counseling cannot do, and so separates whether guidance works by *informing* jobseekers or by *persuading* them to act. Primary outcomes are employment and earnings, match quality and persistence, and welfare, with short-run measures anchored to long-run welfare through a surrogate index estimated in external Kenyan panel data (KLPS).

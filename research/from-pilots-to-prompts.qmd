@@ -1,0 +1,9 @@
+---
+title: "From Pilots to Prompts: Validating LLM In-Silico Policy Impact Predictions Against Statistical Baselines in Low-Resource Contexts"
+subtitle: "Working paper"
+author: "with Jose-Ramon Enriquez & Sharif Kazemi"
+description: "Benchmarking large language models against statistical baselines as predictors of human survey-experiment responses."
+categories: ["Prediction & Simulation", "Behavioral Economics"]
+---
+
+Can large language models predict how people respond in survey experiments? We propose a Machine-Augmented Social Simulation (MASS) pipeline that benchmarks LLMs against both parametric and nonparametric statistical baselines, tuning prompt design on a small subset of human observations. Applied to a 63-country climate megastudy (N ≈ 59,000; 45 languages; 12 treatment arms), prompt design accounts for more error variance than the choice of model, with a 13-fold range in RMSE between the best and worst configurations, and configuration is not additive on its components. LLMs outperform the baselines at the country-by-arm aggregate level but underperform at the individual level, reconciling mixed prior evidence on simulation fidelity.

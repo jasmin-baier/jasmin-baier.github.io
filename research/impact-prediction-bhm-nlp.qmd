@@ -1,0 +1,9 @@
+---
+title: "Novel forms of impact prediction: the future of combining Bayesian Hierarchical Modelling with NLP-regressors"
+subtitle: "Working paper"
+author: "with G. Martinelli"
+description: "Combining Bayesian hierarchical modelling with NLP regressors to predict the impact of policies and interventions."
+categories: ["Prediction & Simulation"]
+---
+
+Combining Bayesian hierarchical modelling with NLP regressors to predict the impact of policies and interventions.

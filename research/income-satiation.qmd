@@ -1,0 +1,9 @@
+---
+title: "Causal evidence on income satiation points of happiness and well-being in Kenya"
+subtitle: "Work in progress"
+author: "with Johannes Haushofer"
+description: "Causal evidence on whether the well-being returns to income level off in Kenya."
+categories: ["Behavioral Economics", "Well-being", "Development"]
+---
+
+Causal evidence on whether, and at what point, the well-being returns to higher income level off in Kenya.
