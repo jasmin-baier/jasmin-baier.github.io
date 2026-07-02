@@ -2,7 +2,7 @@
 title: "Global Automation Atlas"
 subtitle: "Working paper"
 author: "with Prashant Garg & Tommaso Crosta"
-description: "A task-based, country-specific atlas of automation exposure across 124 countries, separating labour substitution from augmentation."
+description: "A task-based, country-specific atlas of automation exposure across 124 countries, separating labour substitution from augmentation.<br><a href='https://automationatlas.org/atlas/'>Project site</a>"
 categories: ["AI & Labor Markets", "Development"]
 ---
 

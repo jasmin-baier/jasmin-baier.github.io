@@ -2,7 +2,7 @@
 title: "Learning Through Living Room Screens: The Impact of an Educational TV Show on Kenyan Children's Learning and Attitudes"
 subtitle: "Forthcoming · Journal of Development Economics (conditionally accepted via pre-results review)"
 author: "with Laura Barasa, Nicolas Bottan, Anushka Ghosh & Mark Millrine"
-description: "A free-to-air literacy TV show in Kenya raised children's curiosity and, more tentatively, reading comprehension."
+description: "A free-to-air literacy TV show in Kenya raised children's curiosity and, more tentatively, reading comprehension.<br><a href='https://ssrn.com/abstract=6720325'>SSRN</a> · <a href='https://ssrn.com/abstract=5022687'>SSRN (earlier version)</a>"
 categories: ["Skills & Learning", "Behavioral Economics", "Field Experiments", "Development"]
 ---
 
