@@ -102,7 +102,7 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
-## Unit \#5 - Statistics II (HT TBC)
+## Unit \#5 - Statistics II (HT Week 1)
 
 ### Dates, Times, and Locations
 HT Week 1
@@ -125,7 +125,7 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 
 
 ::: {.callout-note collapse="true" icon="false"}
-## Unit \#6 - Time Series (HT TBC)
+## Unit \#6 - Time Series (HT Week 3)
 
 ### Dates, Times, and Locations
 HT Week 3
@@ -151,7 +151,7 @@ After attending class and the tutorial, complete [problem set](problem-sets.qmd)
 
 ::: {.callout-note collapse="true" icon="false"}
 
-## Unit \#7 - Causal Inference (HT TBC)
+## Unit \#7 - Causal Inference (HT Week 5)
 
 ### Dates, Times, and Locations
 HT Week 5
