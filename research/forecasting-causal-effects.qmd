@@ -1,6 +1,6 @@
 ---
 title: "Predicting Causal Effects from Natural Language Queries using Structured Representations"
-subtitle: "Working paper"
+subtitle: "Forthcoming · Findings of the Association for Computational Linguistics: EACL 2027"
 author: "with Giuliano Martinelli, Piriyakorn Piriyatamwong, Abelardo Carlos Martinez Lorenzo, Riccardo Orlando, Satvik Garg, Sharif Kazemi, Linxi Wang, Arianna Legovini & Samuel Fraiberger"
 description: "A benchmark and structured-representation method for forecasting causal effect sizes directly from natural-language questions.<br><a href='https://arxiv.org/abs/2605.29631'>arXiv</a>"
 categories: ["Prediction & Simulation", "Development"]
